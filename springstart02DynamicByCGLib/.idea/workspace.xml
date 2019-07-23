@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5455abb4-583f-4301-9896-bdcc66070307" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../javabasics/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/.idea/libraries/Maven__cglib_cglib_3_2_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/.idea/libraries/Maven__org_apache_ant_ant_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/.idea/libraries/Maven__org_ow2_asm_asm_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/ProperticesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/cglib/CglibDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/cglib/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/junit/JunitTestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/nio/NIODemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/regex/RegexDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/sort/BobbSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/thread/demo/EnergySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/thread/demo/EnergySystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/thread/demo/EnergyTransferTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/thread/demo/threaddemo/EnergySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/thread/demo/threaddemo/EnergyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/thread/demo/threaddemo/EnergyTransferTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/resources/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/java/com/shiyi/mybatis/domain/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/java/com/shiyi/mybatis/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/java/com/shiyi/mybatis/mapper/DepartMentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/java/com/shiyi/mybatis/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/com/shiyi/mybatis/mapper/departmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/com/shiyi/mybatis/mapper/employeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/test/java/com/shiyi/test/TestManyToOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/java/com/shiyi/mybatis/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/java/com/shiyi/mybatis/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/resources/com/shiyi/mybatis/mapper/employeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/test/java/com/shiyi/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/java/com/shiyi/mybatis/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/java/com/shiyi/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/com/shiyi/mybatis/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/test/java/com/shiyi/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/java/com/shiyi/mybatis/domain/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/java/com/shiyi/mybatis/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/java/com/shiyi/mybatis/mapper/DepartMentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/java/com/shiyi/mybatis/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/com/shiyi/mybatis/mapper/departmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/com/shiyi/mybatis/mapper/employeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/test/java/com/shiyi/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/java/com/shiyi/mybatis/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/java/com/shiyi/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/resources/com/shiyi/mybatis/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/test/java/com/shiyi/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/domain/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/domain/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/domain/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/mapper/TeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/com/shiyi/mybatis/mapper/studentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/com/shiyi/mybatis/mapper/teacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/test/java/ManyToManyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/test/java/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/advice/AroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/advice/ExceptionLogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/advice/MethodInvokeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/shiyi/handler/TransactionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/shiyi/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/test/java/com/shiyi/JDKDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/java/com/shiyi/service/impl/EmployeeServcieImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/java/com/shiyi/service/impl/EmployeeServiceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/test/java/com/shiyi/StaticProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/advice/AroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/advice/ExceptionLogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/advice/MethodInvokeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/shiyi/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/test/java/com/shiyi/XMLAOPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/src/main/java/com/shiyi/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/src/test/java/com/shiyi/RegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/di/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/di/EmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/di/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat4FactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/CatInstanceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/CatStaticFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/MyDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/proxy/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/proxy/ServiceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/proxy/ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/proxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/CatCreateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/CatStaticFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/StudentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/TeacherExistConditon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/DITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/TestProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/druid/DruidTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/ioc/CreateBeanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/ioc/InitAndDestoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/ioc/ScopeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/persontest/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/shiyi/Inter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/shiyi/springboot/com/shiyi/con.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/test/java/com/shiyi/springboot/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/java/com/shiyi/springbootmybatisdemo/start/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/java/com/shiyi/springbootmybatisdemo/start/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/java/com/shiyi/springbootmybatisdemo/start/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/java/com/shiyi/springbootmybatisdemo/start/mybatis/MybatisStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/resources/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_springframework_spring_test_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/src/main/java/com/shiyi/springbootstart/com/shiyi/SetUniqueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/DateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/DateControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/RequestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/ResponseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/UserQueryObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/resources/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/redirect.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/static/json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/static/static.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/java/com/shiyi/mp/beans/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/java/com/shiyi/mp/beans/StudentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/java/com/shiyi/mp/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/test/java/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/advice/AroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/advice/ExceptionLogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/advice/MethodInvokeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/shiyi/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/test/java/com/shiyi/AnnoAOPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/java/com/shiyi/dao/IStudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/java/com/shiyi/dao/impl/StudentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/java/com/shiyi/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/java/com/shiyi/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/test/java/com/shiyi/RegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/advice/AroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/advice/ExceptionLogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/advice/MethodInvokeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyi/handler/TransactionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyi/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/shiyi/DynamicByCglib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/java/com/shiyi/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/java/com/shiyi/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/java/com/shiyi/service/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/java/com/shiyi/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/applicationAnno.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/com/shiyi/mapper/accountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/test/java/com/shiyi/TestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/test/java/com/shiyi/TestTransactionByAnno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/test/java/com/shiyi/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/longhoo/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startJava.iml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/shiyi/DynamicByCglib.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shiyi/handler/TransactionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shiyi/tx/TransactionManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="20" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shiyi/handler/TransactionHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shiyi/DynamicByCglib.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="982" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springstart02DynamicByCGLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springstart02DynamicByCGLib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springstart02DynamicByCGLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springstart02DynamicByCGLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springstart02DynamicByCGLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springstart02DynamicByCGLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springstart02DynamicByCGLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springstart02DynamicByCGLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springstart02DynamicByCGLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springstart02DynamicByCGLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springstart02DynamicByCGLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springstart02DynamicByCGLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springstart02DynamicByCGLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springstart02DynamicByCGLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springstart02DynamicByCGLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springstart02DynamicByCGLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555323350905" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.DynamicByCglib.testThread">
+    <configuration name="DynamicByCglib.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springstart02DynamicByCGLib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shiyi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shiyi" />
+      <option name="MAIN_CLASS_NAME" value="com.shiyi.DynamicByCglib" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicByCglib.testThread" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springstart02DynamicByCGLib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shiyi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shiyi" />
+      <option name="MAIN_CLASS_NAME" value="com.shiyi.DynamicByCglib" />
+      <option name="METHOD_NAME" value="testThread" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DynamicByCglib.testThread" />
+        <item itemvalue="JUnit.DynamicByCglib.testInsert" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5455abb4-583f-4301-9896-bdcc66070307" name="Default Changelist" comment="" />
+      <created>1555247371240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555247371240</updated>
+      <workItem from="1555247372500" duration="921000" />
+      <workItem from="1555307321886" duration="678000" />
+      <workItem from="1555317774252" duration="2605000" />
+      <workItem from="1555581477750" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DynamicByCglib_testInsert - 2019.04.14 at 21h 22m 10s.xml">
+      <configuration name="DynamicByCglib.testInsert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DynamicByCglib_testThread - 2019.04.15 at 16h 57m 05s.xml">
+      <configuration name="DynamicByCglib.testThread" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4207000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="982" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25946277" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32998565" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://JAVA/com.shiyi.handler.TransactionHandler">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.shiyi.handler.TransactionHandler</OriginalElement>
+          <nodes>
+            <node x="35.0" y="0.0">org.springframework.cglib.proxy.Callback</node>
+            <node x="4.5" y="79.0">org.springframework.cglib.proxy.InvocationHandler</node>
+            <node x="0.0" y="158.0">com.shiyi.handler.TransactionHandler</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.shiyi.handler.TransactionHandler" target="org.springframework.cglib.proxy.InvocationHandler">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.cglib.proxy.InvocationHandler" target="org.springframework.cglib.proxy.Callback">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-197.0" y="9.0" />
+          <SelectedNodes>
+            <node>org.springframework.cglib.proxy.Callback</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.shiyi:springStarto1:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.shiyi:springStarto1:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="549.0406565656565" y="445.0">com.shiyi:springStarto1:1.0-SNAPSHOT</node>
+            <node x="248.0" y="326.0">com.alibaba:druid:jar:1.1.9</node>
+            <node x="332.0" y="326.0">org.aspectj:aspectjweaver:jar:1.8.13</node>
+            <node x="867.5406565656565" y="326.0">com.shiyi:mybatisHelper:jar:1.0.2RELEASE</node>
+            <node x="887.5406565656565" y="247.0">com.shiyi:mybatisHelper:jar:1.0.2RELEASE/org.mybatis:mybatis:jar:3.4.6</node>
+            <node x="471.0" y="326.0">log4j:log4j:jar:1.2.17</node>
+            <node x="61.0" y="326.0">mysql:mysql-connector-java:jar:8.0.15</node>
+            <node x="86.0" y="247.0">mysql:mysql-connector-java:jar:8.0.15/com.google.protobuf:protobuf-java:jar:3.6.1</node>
+            <node x="1040.0406565656565" y="326.0">junit:junit:jar:4.12</node>
+            <node x="1008.5406565656565" y="247.0">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="699.7906565656565" y="326.0">org.springframework:spring-context:jar:5.0.8.RELEASE</node>
+            <node x="669.5" y="247.0">org.springframework:spring-context:jar:5.0.8.RELEASE/org.springframework:spring-aop:jar:5.0.8.RELEASE</node>
+            <node x="790.5" y="168.0">org.springframework:spring-context:jar:5.0.8.RELEASE/org.springframework:spring-expression:jar:5.0.8.RELEASE</node>
+            <node x="702.2906565656565" y="79.0">org.springframework:spring-core:jar:5.0.8.RELEASE</node>
+            <node x="709.2906565656565" y="0.0">org.springframework:spring-core:jar:5.0.8.RELEASE/org.springframework:spring-jcl:jar:5.0.8.RELEASE</node>
+            <node x="602.0" y="168.0">org.springframework:spring-beans:jar:5.0.8.RELEASE</node>
+            <node x="0.0" y="168.0">org.springframework:spring-test:jar:5.0.8.RELEASE</node>
+            <node x="553.0" y="326.0">org.projectlombok:lombok:jar:1.18.2</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.shiyi:springStarto1:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:5.0.8.RELEASE">
+              <point x="41.81818181818181" y="-14.5" />
+              <point x="648.3588383838382" y="415.0" />
+              <point x="998.0406565656565" y="415.0" />
+              <point x="998.0406565656565" y="128.0" />
+              <point x="797.6239898989899" y="128.0" />
+              <point x="43.333333333333314" y="14.5" />
+            </edge>
+            <edge source="com.shiyi:springStarto1:1.0-SNAPSHOT" target="log4j:log4j:jar:1.2.17">
+              <point x="-10.454545454545439" y="-14.5" />
+              <point x="596.086111111111" y="385.0" />
+              <point x="502.0" y="385.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.0.8.RELEASE" target="org.springframework:spring-beans:jar:5.0.8.RELEASE">
+              <point x="-46.5" y="-14.5" />
+              <point x="715.2906565656565" y="306.0" />
+              <point x="659.0" y="306.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework:spring-test:jar:5.0.8.RELEASE" target="org.springframework:spring-core:jar:5.0.8.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="50.5" y="138.0" />
+              <point x="710.9573232323232" y="138.0" />
+              <point x="-43.333333333333314" y="14.5" />
+            </edge>
+            <edge source="com.shiyi:mybatisHelper:jar:1.0.2RELEASE" target="com.shiyi:mybatisHelper:jar:1.0.2RELEASE/org.mybatis:mybatis:jar:3.4.6">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework:spring-core:jar:5.0.8.RELEASE" target="org.springframework:spring-core:jar:5.0.8.RELEASE/org.springframework:spring-jcl:jar:5.0.8.RELEASE">
+              <point x="5.6843418860808015E-14" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.0.8.RELEASE/org.springframework:spring-expression:jar:5.0.8.RELEASE" target="org.springframework:spring-core:jar:5.0.8.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="862.5" y="138.0" />
+              <point x="780.2906565656566" y="138.0" />
+              <point x="26.000000000000057" y="14.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.0.8.RELEASE" target="org.springframework:spring-context:jar:5.0.8.RELEASE/org.springframework:spring-expression:jar:5.0.8.RELEASE">
+              <point x="46.5" y="-14.5" />
+              <point x="808.2906565656565" y="306.0" />
+              <point x="862.5" y="306.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.shiyi:springStarto1:1.0-SNAPSHOT" target="com.alibaba:druid:jar:1.1.9">
+              <point x="-31.363636363636374" y="-14.5" />
+              <point x="575.1770202020201" y="405.0" />
+              <point x="280.0" y="405.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="junit:junit:jar:4.12" target="junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.shiyi:springStarto1:1.0-SNAPSHOT" target="com.shiyi:mybatisHelper:jar:1.0.2RELEASE">
+              <point x="31.363636363636374" y="-14.5" />
+              <point x="637.9042929292929" y="405.0" />
+              <point x="927.5406565656565" y="405.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.shiyi:springStarto1:1.0-SNAPSHOT" target="org.springframework:spring-beans:jar:5.0.8.RELEASE">
+              <point x="10.454545454545439" y="-14.5" />
+              <point x="616.9952020202019" y="385.0" />
+              <point x="640.5" y="385.0" />
+              <point x="640.5" y="222.0" />
+              <point x="621.0" y="222.0" />
+              <point x="-38.0" y="14.5" />
+            </edge>
+            <edge source="com.shiyi:springStarto1:1.0-SNAPSHOT" target="org.projectlombok:lombok:jar:1.18.2">
+              <point x="0.0" y="-14.5" />
+              <point x="606.5406565656565" y="375.0" />
+              <point x="591.5" y="375.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="mysql:mysql-connector-java:jar:8.0.15" target="mysql:mysql-connector-java:jar:8.0.15/com.google.protobuf:protobuf-java:jar:3.6.1">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.shiyi:springStarto1:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:8.0.15">
+              <point x="-41.81818181818181" y="-14.5" />
+              <point x="564.7224747474746" y="415.0" />
+              <point x="144.5" y="415.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.shiyi:springStarto1:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:5.0.8.RELEASE">
+              <point x="20.909090909090878" y="-14.5" />
+              <point x="627.4497474747474" y="395.0" />
+              <point x="761.7906565656565" y="395.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.shiyi:springStarto1:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:5.0.8.RELEASE">
+              <point x="-52.27272727272725" y="-14.5" />
+              <point x="554.2679292929292" y="425.0" />
+              <point x="50.5" y="425.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.0.8.RELEASE" target="org.springframework:spring-core:jar:5.0.8.RELEASE">
+              <point x="15.5" y="-14.5" />
+              <point x="777.2906565656565" y="306.0" />
+              <point x="780.0" y="306.0" />
+              <point x="780.0" y="148.0" />
+              <point x="762.9573232323232" y="148.0" />
+              <point x="8.666666666666686" y="14.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.0.8.RELEASE" target="org.springframework:spring-context:jar:5.0.8.RELEASE/org.springframework:spring-aop:jar:5.0.8.RELEASE">
+              <point x="-15.5" y="-14.5" />
+              <point x="746.2906565656565" y="296.0" />
+              <point x="719.5" y="296.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.shiyi:springStarto1:1.0-SNAPSHOT" target="org.aspectj:aspectjweaver:jar:1.8.13">
+              <point x="-20.909090909090878" y="-14.5" />
+              <point x="585.6315656565656" y="395.0" />
+              <point x="391.5" y="395.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework:spring-beans:jar:5.0.8.RELEASE" target="org.springframework:spring-core:jar:5.0.8.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="659.0" y="148.0" />
+              <point x="728.2906565656565" y="148.0" />
+              <point x="-26.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.0.8.RELEASE/org.springframework:spring-aop:jar:5.0.8.RELEASE" target="org.springframework:spring-core:jar:5.0.8.RELEASE">
+              <point x="25.0" y="-14.5" />
+              <point x="744.5" y="148.0" />
+              <point x="745.6239898989899" y="148.0" />
+              <point x="-8.666666666666686" y="14.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.0.8.RELEASE/org.springframework:spring-aop:jar:5.0.8.RELEASE" target="org.springframework:spring-beans:jar:5.0.8.RELEASE">
+              <point x="-25.0" y="-14.5" />
+              <point x="694.5" y="222.0" />
+              <point x="697.0" y="222.0" />
+              <point x="38.0" y="14.5" />
+            </edge>
+            <edge source="com.shiyi:springStarto1:1.0-SNAPSHOT" target="junit:junit:jar:4.12">
+              <point x="52.27272727272725" y="-14.5" />
+              <point x="658.8133838383837" y="425.0" />
+              <point x="1069.5406565656565" y="425.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9070373588184187" x="245.0" y="145.0" />
+          <SelectedNodes>
+            <node>org.projectlombok:lombok:jar:1.18.2</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shiyi/DynamicByCglib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shiyi/handler/TransactionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shiyi/tx/TransactionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

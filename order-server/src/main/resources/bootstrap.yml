@@ -1,0 +1,37 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: ORDER-SERVER
+  cloud:
+    config:
+      discovery:
+        service-id: CONFIG-SERVER
+        enabled: true
+      label: master
+  rabbitmq:
+    host: 192.168.14.235
+    port: 5672
+    username: guest
+    password: guest
+  redis:
+    host: 192.168.14.229
+    password: wolfcode
+
+#是否开启超时限制 （一定不要禁用）
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 2000
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

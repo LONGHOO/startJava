@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var str = new Array('孙悟空', '布尔玛', '克林')
+    var splitter = '|';
+    function arry(array) {
+        var result=""
+        for (var i = 0; i < array.length; i++) {
+            if(i < array.length -1){
+                result+=array[i]+splitter;
+            }else{
+                result+=array[i];
+            }
+        }
+        return result;
+    }
+    console.log(arry(str));
+</script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.crud.mapper.EmployeeMapper">
+  <resultMap id="BaseResultMap" type="cn.wolfcode.crud.domain.Employee">
+    <id column="id" property="id" />
+    <result column="name" property="name" />
+    <result column="password" property="password" />
+    <result column="email" property="email" />
+    <result column="age" property="age" />
+    <result column="admin" property="admin" />
+    <!--封装one方对象-->
+    <association property="dept" javaType="cn.wolfcode.crud.domain.Department" columnPrefix="d_">
+      <id column="id" property="id" />
+      <result column="name" property="name" />
+    </association>
+    <!--关联many方角色对象-->
+    <collection property="roles" column="id"
+                select="cn.wolfcode.crud.mapper.RoleMapper.selectByEmployeeId"/>
+  </resultMap>
+  <delete id="deleteByPrimaryKey">
+    delete from employee
+    where id = #{id}
+  </delete>
+  <!--先删除关系,再删除数据-->
+  <delete id="deleteRelation">
+    delete from employee_role where employee_id = #{employeeId}
+  </delete>
+  <!--批量删除-->
+    <delete id="batchDelete">
+      delete from employee
+      where id in
+      <foreach collection="array" open="(" separator="," close=")" item="id">
+        #{id}
+      </foreach>
+    </delete>
+
+  <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+    insert into employee (name, password, email, age, admin, dept_id)
+    values (#{name}, #{password}, #{email}, #{age}, #{admin}, #{dept.id})
+  </insert>
+
+  <!--维护关系-->
+  <insert id="insertRelation">
+    insert into employee_role(employee_id,role_id)
+    values (#{employeeId},#{roleId})
+  </insert>
+  <update id="updateByPrimaryKey">
+    update employee
+    set name = #{name},
+      email = #{email},
+      age = #{age},
+      admin = #{admin},
+      dept_id = #{dept.id}
+    where id = #{id}
+  </update>
+
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap">
+    <include refid="base_column"/>
+    <include refid="base_table"/>
+    where e.id = #{id}
+  </select>
+  <!--<select id="selectAll" resultType="cn.wolfcode.crud.domain.Employee">
+    <include refid="base_column"/>
+    <include refid="base_table"/>
+  </select>-->
+
+  <select id="selectForCount" resultType="int">
+    select count(*)
+    <include refid="base_table"/>
+    <include refid="base_where"/>
+  </select>
+
+  <select id="selectForList" resultMap="BaseResultMap">
+    <include refid="base_column"/>
+    <include refid="base_table"/>
+    <include refid="base_where"/>
+  </select>
+
+  <select id="selectByUsernameAndPassword" resultType="cn.wolfcode.crud.domain.Employee">
+      select id,name,password,email,age,admin
+      from employee where name = #{username} and password = #{password}
+  </select>
+  <!--查询用户信息,shiro认证登录-->
+    <select id="selectByUsername" resultType="cn.wolfcode.crud.domain.Employee">
+      select id,name,password,email,age,admin from employee
+      where name=#{username}
+    </select>
+    <select id="selectAll" resultType="cn.wolfcode.crud.domain.Employee">
+      select id,name,email,age from employee
+    </select>
+  <!--查询所欲市场专员-->
+  <select id="listEmployeeByRoleSns" resultType="cn.wolfcode.crud.domain.Employee">
+    select e.id,e.name,e.email,e.age,e.admin
+    from employee e
+    left join employee_role er on e.id = er.employee_id
+    left join role r on r.id = er.role_id
+    <where>
+      <if test="array != null">
+        and r.sn in
+        <foreach collection="array" open="(" separator="," close=")" item="sn">
+          #{sn}
+        </foreach>
+      </if>
+    </where>
+  </select>
+
+  <sql id="base_column">
+    select
+    e.id,e.name,e.email,e.age,e.admin,
+    d.id d_id,d.name d_name
+  </sql>
+
+  <sql id="base_table">
+    from employee e left join department d on e.dept_id = d.id
+  </sql>
+
+  <sql id="base_where">
+    <where>
+      <if test="keyword!=null">
+        and (e.name like concat('%',#{keyword},'%')
+        or e.email like concat('%',#{keyword},'%'))
+      </if>
+      <if test="deptId > 0">
+        and e.dept_id = #{deptId}
+      </if>
+    </where>
+  </sql>
+
+</mapper>

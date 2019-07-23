@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.trip.base.mapper.TagMapper">
+  <resultMap id="BaseResultMap" type="cn.wolfcode.trip.base.domain.Tag">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from tag
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="cn.wolfcode.trip.base.domain.Tag" useGeneratedKeys="true">
+    insert into tag (name)
+    values (#{name,jdbcType=VARCHAR})
+  </insert>
+  <insert id="saveRelation">
+    insert into comment_tag values(#{commentId},#{tagId})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="cn.wolfcode.trip.base.domain.Tag">
+    update tag
+    set name = #{name,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, name
+    from tag
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, name
+    from tag
+  </select>
+  <select id="getHotTag" resultType="cn.wolfcode.trip.base.domain.Tag">
+    select t.id ,t.name ,count(t.id) count from tag t
+    left join comment_tag ct on ct.tag_id = t.id
+    left join strategycomment sc on sc.id = ct.comment_id
+    group by t.id,t.name
+    order by count desc
+  </select>
+</mapper>

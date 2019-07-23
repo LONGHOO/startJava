@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.wolfcode.crud.mapper.EmployeeMapper">
+    <resultMap id="BaseResultMap" type="cn.wolfcode.crud.domain.Employee">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="password" property="password"/>
+        <result column="email" property="email"/>
+        <result column="age" property="age"/>
+        <result column="admin" property="admin"/>
+        <result column="dept_id" property="dept.id"/>
+
+        <association property="dept" javaType="cn.wolfcode.crud.domain.Department" columnPrefix="d_">
+            <id column="id" property="id"/>
+            <result column="name" property="name"/>
+        </association>
+
+        <association property="role" column="id" select="cn.wolfcode.crud.mapper.RoleMapper.selectRoleByEmployeeId"/>
+    </resultMap>
+
+    <delete id="deleteByPrimaryKey">
+    delete from employee
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+
+    <delete id="deleteRelationship">
+    delete from employee_role where employee_id=#{employeeId}
+  </delete>
+
+    <insert id="insert" parameterType="cn.wolfcode.crud.domain.Employee" useGeneratedKeys="true" keyProperty="id">
+    insert into employee (name, password, email, 
+      age, admin, dept_id)
+    values (#{name,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, 
+      #{age,jdbcType=INTEGER}, #{admin,jdbcType=BIT}, #{dept.id,jdbcType=BIGINT})
+  </insert>
+
+    <insert id="insertRelationship">
+    insert into employee_role (employee_id,role_id)value (#{employeeId},#{roleId})
+  </insert>
+
+    <update id="updateByPrimaryKey" parameterType="cn.wolfcode.crud.domain.Employee">
+    update employee
+    set name = #{name,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      email = #{email,jdbcType=VARCHAR},
+      age = #{age,jdbcType=INTEGER},
+      admin = #{admin,jdbcType=BIT},
+      dept_id = #{dept.id,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long">
+        SELECT
+            e.id, e.name,e.age,e.email,e.admin,
+              d.id d_id,d.`name` d_name
+         FROM employee e
+        JOIN department d ON e.dept_id=d.id
+        where e.id = #{id}
+  </select>
+
+    <select id="selectAll" resultMap="BaseResultMap">
+    select id, name, password, email, age, admin, dept_id
+    from employee
+  </select>
+
+    <select id="queryForCount" resultType="java.lang.Integer">
+      select count(*)
+      from employee
+  </select>
+
+    <select id="queryForList" resultMap="BaseResultMap">
+        SELECT
+        e.id, e.name,e.age,e.email,e.admin,
+        d.id d_id,d.`name` d_name
+        FROM employee e
+        JOIN department d ON e.dept_id=d.id
+        <include refid="Base_where"/>
+        limit #{start},#{pageSize}
+    </select>
+    <select id="getEmpByUserNameAndPassword" resultType="cn.wolfcode.crud.domain.Employee">
+      select
+        id,name,email,age,admin,dept_id
+      from employee
+      where
+        name = #{username}
+        and password = #{password}
+    </select>
+
+    <select id="queryPermissionByEmpId" resultType="String">
+      select p.expression from permission p
+      left join role_permission rp on rp.permission_id = p.id
+      left join employee_role er on er.role_id = rp.role_id
+      where er.employee_id = #{id}
+    </select>
+
+    <sql id="Base_where">
+        <where>
+            <if test="keyWord != null">
+                and (
+                e.name like concat('%',#{keyWord},'%')
+                or
+                e.email like concat('%',#{keyWord},'%'))
+            </if>
+            <if test="deptId > 0">
+                and e.dept_id = #{deptId}
+            </if>
+        </where>
+    </sql>
+
+</mapper>

@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1113005d-fa4a-4414-baa8-1744b283c3b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/cn/wolfcode/trip/admin/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/resources/mvc-admin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/cn/wolfcode/trip/api/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/domain/ISave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/domain/Person1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/domain/ProxyPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/domain/TestMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/factory/SalesFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/sale/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/sale/PriceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/sale/Sales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/sale/SalesCEO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/test/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/test/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longhoo/ProperticesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longhoo/cglib/CglibDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longhoo/cglib/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longhoo/juc/TestAtomic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longhoo/juc/TestVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longhoo/junit/JunitTestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longhoo/nio/NIODemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longhoo/regex/RegexDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longhoo/sort/BobbSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/longhoo/lambda/AbastractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/longhoo/lambda/InstatnceClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/longhoo/lambda/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/longhoo/thread/demo/EnergySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/longhoo/thread/demo/EnergySystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/longhoo/thread/demo/EnergyTransferTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/longhoo/thread/demo/threaddemo/EnergySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/longhoo/thread/demo/threaddemo/EnergyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/longhoo/thread/demo/threaddemo/EnergyTransferTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/java/com/shiyi/mybatis/domain/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/java/com/shiyi/mybatis/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/java/com/shiyi/mybatis/mapper/DepartMentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/java/com/shiyi/mybatis/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/com/shiyi/mybatis/mapper/departmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/com/shiyi/mybatis/mapper/employeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/test/java/com/shiyi/test/TestManyToOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/java/com/shiyi/mybatis/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/java/com/shiyi/mybatis/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/resources/com/shiyi/mybatis/mapper/employeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/test/java/com/shiyi/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/java/com/shiyi/mybatis/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/java/com/shiyi/mybatis/mapper/PeopleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/java/com/shiyi/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/com/shiyi/mybatis/mapper/peopleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/com/shiyi/mybatis/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/test/java/com/shiyi/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/java/com/shiyi/mybatis/domain/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/java/com/shiyi/mybatis/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/java/com/shiyi/mybatis/mapper/DepartMentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/java/com/shiyi/mybatis/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/com/shiyi/mybatis/mapper/departmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/com/shiyi/mybatis/mapper/employeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/test/java/com/shiyi/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/java/com/shiyi/mybatis/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/java/com/shiyi/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/resources/com/shiyi/mybatis/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/test/java/com/shiyi/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/domain/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/domain/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/domain/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/mapper/TeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/com/shiyi/mybatis/mapper/studentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/com/shiyi/mybatis/mapper/teacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/test/java/ManyToManyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/test/java/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restful/src/main/java/com/shiyi/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restful/src/main/resources/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restful/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restful/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restful/src/test/java/TestBreake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/advice/AroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/advice/ExceptionLogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/advice/MethodInvokeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/shiyi/handler/TransactionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/shiyi/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/test/java/com/shiyi/JDKDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/java/com/shiyi/service/impl/EmployeeServcieImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/java/com/shiyi/service/impl/EmployeeServiceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/test/java/com/shiyi/StaticProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/advice/AroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/advice/ExceptionLogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/advice/MethodInvokeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/shiyi/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/test/java/com/shiyi/XMLAOPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/src/main/java/com/shiyi/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/src/test/java/com/shiyi/RegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/di/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/di/EmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/di/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat4FactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/CatInstanceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/CatStaticFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/MyDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/proxy/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/proxy/ServiceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/proxy/ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/proxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/CatCreateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/CatStaticFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/StudentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/TeacherExistConditon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/DITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/TestProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/druid/DruidTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/ioc/CreateBeanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/ioc/InitAndDestoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/ioc/ScopeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/persontest/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/shiyi/Inter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/shiyi/springboot/com/shiyi/con.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/test/java/com/shiyi/springboot/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/java/com/shiyi/springbootmybatisdemo/start/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/java/com/shiyi/springbootmybatisdemo/start/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/java/com/shiyi/springbootmybatisdemo/start/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/java/com/shiyi/springbootmybatisdemo/start/mybatis/MybatisStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/resources/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/src/main/java/com/shiyi/springbootstart/com/shiyi/SetUniqueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/DateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/DateControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/RequestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/ResponseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/UserQueryObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/resources/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/redirect.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/static/json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/static/static.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/java/com/shiyi/mp/beans/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/java/com/shiyi/mp/beans/StudentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/java/com/shiyi/mp/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/test/java/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/advice/AroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/advice/ExceptionLogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/advice/MethodInvokeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/shiyi/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/test/java/com/shiyi/AnnoAOPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/java/com/shiyi/dao/IStudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/java/com/shiyi/dao/impl/StudentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/java/com/shiyi/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/java/com/shiyi/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/test/java/com/shiyi/RegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/advice/AroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/advice/ExceptionLogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/advice/MethodInvokeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/shiyi/handler/TransactionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/shiyi/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/test/java/com/shiyi/DynamicByCglib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/query/QueryObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/service/IDepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/service/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/service/impl/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/web/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/web/controller/ExcelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/web/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/web/interceptor/LoginInterceptoer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/web/viewBuild/ExcelViewBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/thread/Express.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/thread/PostMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/thread/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/resources/excelConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/resources/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/java/com/shiyi/ssm/service/IDepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/java/com/shiyi/ssm/service/impl/DepartmentImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/java/com/shiyi/ssm/web/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/java/com/shiyi/ssm/web/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/resources/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/webapp/WEB-INF/views/input.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/java/com/shiyi/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/java/com/shiyi/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/java/com/shiyi/service/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/java/com/shiyi/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/applicationAnno.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/com/shiyi/mapper/accountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/test/java/com/shiyi/TestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/test/java/com/shiyi/TestTransactionByAnno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/test/java/com/shiyi/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/imooc/netty/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/imooc/netty/MyWebSocketChannelHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/imooc/netty/MyWebSocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/imooc/netty/NettyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/shiyi/server/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/shiyi/server/NettyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/shiyi/server/handler/MyWebSocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/shiyi/server/handler/MysocketChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/longhoo/test.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="javabasics" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestBank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/longhoo/juc/TestVolatile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/longhoo/juc/TestAtomic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/longhoo/sort/BobbSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="590">
+              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11730">
+              <caret line="745" column="16" selection-start-line="745" selection-start-column="16" selection-end-line="745" selection-end-column="16" />
+              <folding>
+                <element signature="e#15020#15021#0" expanded="true" />
+                <element signature="e#15084#15085#0" expanded="true" />
+                <element signature="e#15704#15705#0" expanded="true" />
+                <element signature="e#15770#15771#0" expanded="true" />
+                <element signature="e#19132#19133#0" expanded="true" />
+                <element signature="e#19175#19176#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/longhoo/thread/demo/threaddemo/EnergyTransferTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/longhoo/thread/demo/threaddemo/EnergyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>iso</find>
+      <find>add</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/longhoo/dynamicagency/demo/HelloWorldImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/longhoo/dynamicagency/demo/HelloWorldImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/longhoo/genericity/demo/GenericityTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/longhoo/dynamicagency/demo/HelloWorldHandle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longhoo/regex/RegexDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longhoo/cglib/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longhoo/junit/JunitTestDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/test.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longhoo/ProperticesDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longhoo/cglib/CglibDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longhoo/nio/NIODemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/longhoo/thread/demo/EnergySystemTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/longhoo/thread/demo/EnergyTransferTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/longhoo/thread/demo/threaddemo/EnergySysteml.java" />
+        <option value="$PROJECT_DIR$/src/main/java/longhoo/thread/demo/EnergySystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/longhoo/thread/demo/threaddemo/EnergyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/longhoo/thread/demo/threaddemo/EnergyTransferTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/longhoo/lambda/start.java" />
+        <option value="$PROJECT_DIR$/src/main/java/longhoo/thread/demo/threaddemo/EnergySystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/longhoo/lambda/InstatnceClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/longhoo/lambda/Start.java" />
+        <option value="$PROJECT_DIR$/src/main/java/longhoo/lambda/AbastractClass.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TestBank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longhoo/juc/TestVolatile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longhoo/juc/TestAtomic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longhoo/sort/atest.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longhoo/sort/BobbSort.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="javabasics" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="832" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="javabasics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javabasics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javabasics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javabasics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javabasics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javabasics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javabasics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javabasics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javabasics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javabasics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javabasics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javabasics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="longhoo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javabasics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javabasics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="longhoo" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558866335287" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/longhoo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/longhoo/thread/demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.BobbSort.test">
+    <configuration name="TestAtomic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.longhoo.juc.TestAtomic" />
+      <module name="javabasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.longhoo.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestBank" />
+      <module name="javabasics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.longhoo.juc.TestVolatile" />
+      <module name="javabasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.longhoo.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BobbSort.bubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javabasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.longhoo.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.longhoo.sort" />
+      <option name="MAIN_CLASS_NAME" value="com.longhoo.sort.BobbSort" />
+      <option name="METHOD_NAME" value="bubbleSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BobbSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javabasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.longhoo.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.longhoo.sort" />
+      <option name="MAIN_CLASS_NAME" value="com.longhoo.sort.BobbSort" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BobbSort.test" />
+        <item itemvalue="JUnit.BobbSort.bubbleSort" />
+        <item itemvalue="Application.TestAtomic" />
+        <item itemvalue="Application.TestVolatile" />
+        <item itemvalue="Application.TestBank" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1113005d-fa4a-4414-baa8-1744b283c3b2" name="Default Changelist" comment="" />
+      <created>1551750976609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551750976609</updated>
+      <workItem from="1551750977904" duration="8169000" />
+      <workItem from="1551770079245" duration="5392000" />
+      <workItem from="1551779462359" duration="89000" />
+      <workItem from="1551779569302" duration="1601000" />
+      <workItem from="1551786576781" duration="682000" />
+      <workItem from="1551798232001" duration="14000" />
+      <workItem from="1551801860947" duration="174000" />
+      <workItem from="1551835399418" duration="908000" />
+      <workItem from="1551868255840" duration="336000" />
+      <workItem from="1551870648567" duration="225000" />
+      <workItem from="1552291920730" duration="718000" />
+      <workItem from="1552355408979" duration="102000" />
+      <workItem from="1552547323538" duration="2113000" />
+      <workItem from="1552611087698" duration="1030000" />
+      <workItem from="1552617374190" duration="3000" />
+      <workItem from="1553170957757" duration="328000" />
+      <workItem from="1553171308982" duration="4656000" />
+      <workItem from="1553219933218" duration="1329000" />
+      <workItem from="1553234887626" duration="547000" />
+      <workItem from="1553317498852" duration="167000" />
+      <workItem from="1554558892581" duration="672000" />
+      <workItem from="1554692206995" duration="3000" />
+      <workItem from="1557496329358" duration="1933000" />
+      <workItem from="1557501660550" duration="2375000" />
+      <workItem from="1557588492023" duration="82000" />
+      <workItem from="1558280831693" duration="1495000" />
+      <workItem from="1558624758471" duration="1888000" />
+      <workItem from="1558851809495" duration="1985000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BobbSort_realPubbSort - 2019.03.14 at 15h 47m 16s.xml">
+      <configuration name="BobbSort.realPubbSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BobbSort_realPubbSort - 2019.03.14 at 15h 47m 56s.xml">
+      <configuration name="BobbSort.realPubbSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NIODemo_testNIO - 2019.03.15 at 09h 08m 09s.xml">
+      <configuration name="NIODemo.testNIO" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NIODemo_testNIO - 2019.03.15 at 09h 09m 17s.xml">
+      <configuration name="NIODemo.testNIO" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NIODemo_testNIO - 2019.03.15 at 09h 09m 55s.xml">
+      <configuration name="NIODemo.testNIO" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BobbSort_bubbleSort - 2019.05.26 at 14h 30m 56s.xml">
+      <configuration name="BobbSort.bubbleSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BobbSort_bubbleSort - 2019.05.26 at 14h 31m 20s.xml">
+      <configuration name="BobbSort.bubbleSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BobbSort_bubbleSort - 2019.05.26 at 14h 32m 07s.xml">
+      <configuration name="BobbSort.bubbleSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BobbSort_test - 2019.05.26 at 16h 55m 42s.xml">
+      <configuration name="BobbSort.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BobbSort_test - 2019.05.26 at 16h 55m 51s.xml">
+      <configuration name="BobbSort.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39016000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.5036573" side_tool="true" weight="0.25885227" />
+      <window_info id="Designer" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49634275" visible="true" weight="0.3490701" />
+      <window_info id="Structure" order="6" sideWeight="0.5036573" side_tool="true" weight="0.25885227" />
+      <window_info id="JRebel" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32819906" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.3291536" />
+      <window_info anchor="bottom" id="Thumbnails" order="6" weight="0.3291536" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.38537794" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.35315984" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.3291536" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Maven" order="1" weight="0.32967034" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32967034" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.24964234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.24969475" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.50261235" side_tool="true" weight="0.24969475" />
+      <window_info id="Designer" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49738768" visible="true" weight="0.25885227" />
+      <window_info id="Structure" order="6" sideWeight="0.50311524" side_tool="true" weight="0.24969475" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3291536" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.3291536" />
+      <window_info anchor="bottom" id="Thumbnails" order="6" weight="0.3291536" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.3291536" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Maven" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.24969475" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/longhoo/ProperticesDemo.java</url>
+          <line>18</line>
+          <properties class="com.longhoo.ProperticesDemo" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/longhoo/sort/BobbSort.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/javabasics.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1697">
+          <caret line="735" column="37" lean-forward="true" selection-start-line="735" selection-start-column="37" selection-end-line="735" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/longhoo/dynamicagency/demo/HEllo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/longhoo/dynamicagency/demo/HelloWorldImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/longhoo/dynamicagency/demo/HelloWorldHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longhoo/regex/RegexDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/longhoo/genericity/demo/GenericityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#249#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/longhoo/genericity/demo/GenericityDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Executable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="132" column="48" lean-forward="true" selection-start-line="132" selection-start-column="48" selection-end-line="132" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/longhoo/dynamicagency/demo/IHelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longhoo/cglib/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.10/cglib-3.2.10.jar!/net/sf/cglib/proxy/NoOp.class" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/StringJoiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6135">
+          <caret line="448" column="40" lean-forward="true" selection-start-line="448" selection-start-column="40" selection-end-line="448" selection-end-column="40" />
+          <folding>
+            <element signature="e#4787#4788#0" expanded="true" />
+            <element signature="e#4813#4814#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longhoo/ProperticesDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/tools.jar!/sun/tools/java/ClassPath.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1621">
+          <caret line="114" column="11" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+          <folding>
+            <element signature="e#4139#4140#0" expanded="true" />
+            <element signature="e#4164#4165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.TreeSet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.TreeSet</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.Cloneable</node>
+            <node x="" y="">java.util.AbstractCollection</node>
+            <node x="" y="">java.util.SortedSet</node>
+            <node x="" y="">java.util.Collection</node>
+            <node x="" y="">java.util.AbstractSet</node>
+            <node x="" y="">java.util.Set</node>
+            <node x="" y="">java.util.NavigableSet</node>
+            <node x="" y="">java.lang.Iterable</node>
+            <node x="" y="">java.util.TreeSet</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="227.0" y="212.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2416">
+          <caret line="238" column="25" selection-start-line="238" selection-start-column="22" selection-end-line="238" selection-end-column="25" />
+          <folding>
+            <element signature="e#4697#4698#0" expanded="true" />
+            <element signature="e#4742#4743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/javafx-src.zip!/javafx/scene/effect/Reflection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longhoo/cglib/CglibDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/nio/ByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4230">
+          <caret line="309" column="29" selection-start-line="309" selection-start-column="29" selection-end-line="309" selection-end-column="29" />
+          <folding>
+            <element signature="e#9208#9209#0" expanded="true" />
+            <element signature="e#9261#9262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longhoo/junit/JunitTestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longhoo/nio/NIODemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/longhoo.thread.demo.EnergyTransferTask">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>longhoo.thread.demo.EnergyTransferTask</OriginalElement>
+          <nodes>
+            <node x="" y="">longhoo.thread.demo.EnergyTransferTask</node>
+            <node x="" y="">java.lang.FunctionalInterface</node>
+            <node x="" y="">java.lang.Runnable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="86.0" y="94.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/longhoo/thread/demo/EnergySystemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/longhoo/thread/demo/EnergySystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+          <folding>
+            <element signature="e#1441#1442#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/longhoo/thread/demo/EnergyTransferTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="60" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+          <folding>
+            <element signature="e#2038#2039#0" expanded="true" />
+            <element signature="e#2076#2077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/longhoo/lambda/InstatnceClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/longhoo/thread/demo/threaddemo/EnergySystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/longhoo/lambda/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/longhoo/lambda/AbastractClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longhoo/juc/TestVolatile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11730">
+          <caret line="745" column="16" selection-start-line="745" selection-start-column="16" selection-end-line="745" selection-end-column="16" />
+          <folding>
+            <element signature="e#15020#15021#0" expanded="true" />
+            <element signature="e#15084#15085#0" expanded="true" />
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+            <element signature="e#19132#19133#0" expanded="true" />
+            <element signature="e#19175#19176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/longhoo/thread/demo/threaddemo/EnergyTransferTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/longhoo/thread/demo/threaddemo/EnergyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longhoo/juc/TestAtomic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longhoo/sort/atest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longhoo/sort/BobbSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>javabasics</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cglib:cglib:3.2.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

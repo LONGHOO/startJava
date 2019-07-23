@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+      <title>注册页面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/js/bootstrap-4.1.1-dist/css/bootstrap.min.css">
+    <script src="/js/jquery/jquery.min.js"></script>
+    <script src="/js/bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/font/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/register.css">
+    <script src="/js/plugins/form/jquery.form.js"></script>
+    <link rel="stylesheet" href="/js/plugins/dialog2/dialog.css">
+    <script src="/js/plugins/dialog2/dialog.min.js"></script>
+    <script src="js/plugins/jquery-validation/jquery.validate.min.js"></script>
+    <script src="/js/common.js"></script>
+
+    <script>
+        $(function () {
+            //表单验证
+            $("#registerForm").validate({
+                rules:{
+                    nickName:{
+                        required:true,
+                        minlength:2,
+                        maxlength:12
+
+                    },
+                    email:{
+                        required:true,
+                        email:true
+                    },
+                    password:{
+                        required:true,
+                        minlength:6,
+                        maxlength:12
+                    },
+                    confirmPwd:{
+                        required:true,
+                        equalTo:"#password"
+                    }
+
+
+                },
+                messages:{
+                    nickName:{
+                        required: "用户名不能为空",
+                        minlength:"用户名最少2个字符",
+                        maxlength:"用户名最多12个字符"
+                    },
+                    email:{
+                        required:"邮箱不能为空",
+                        email:"请输入正确的邮箱格式"
+                    },
+                    password:{
+                        required: "密码不能为空",
+                        minlength:"密码最少6个字符",
+                        maxlength:"密码最多12个字符"
+                    },
+                    confirmPwd:{
+                        required: "请重新确认密码",
+                        equalTo:"两次密码不一致"
+                    }
+
+                },
+                submitHandler:function(){
+                    $("#registerForm").ajaxSubmit({
+                        type:'post',
+                        url:baseUrl+"/users",
+                        success:function(data){
+                            if(data.success){
+                                $(document).dialog({
+                                    type : 'confirm',
+                                    titleText: '温馨提示',
+                                    content: '注册成功！',
+                                    buttons: [
+                                        {
+                                            name: '马上去登录',
+                                            callback: function() {
+                                                window.location.href="login.html";
+                                            }
+                                        }
+                                    ]
+                                });
+                            }else{
+                                $(document).dialog({
+                                    content: data.msg
+                                });
+                            }
+                        }
+                    })
+                },
+                errorClass: "invalid"
+            })
+
+
+        })
+    </script>
+
+</head>
+<body>
+
+<div class="container">
+    <h5>注册</h5>
+    <div class="card card-container ">
+        <i id="profile-img" class="fa fa-user-plus fa-5x profile-img" aria-hidden="true"></i>
+        <form class="form-signin" id="registerForm" method="post">
+            <input type="text" name="nickName" class="form-control badge-pill" placeholder="昵称">
+            <input type="email" name="email" class="form-control badge-pill" placeholder="邮箱"  >
+            <input id="password" type="password" name="password" class="form-control badge-pill" placeholder="密码">
+            <input type="password" name="confirmPwd"  class="form-control badge-pill" placeholder="确认密码">
+            <button class="btn btn-lg badge-pill" type="buttom" id="regiester">注册</button>
+        </form>
+    </div>
+    <a href="login.html" class="registerLink">
+        已经有账号了？点击此处登录
+    </a>
+</div>
+
+</body>
+</html>

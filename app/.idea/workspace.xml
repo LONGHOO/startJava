@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="17eb14ee-a1d7-40d9-98d4-83ad3168b791" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/cn/wolfcode/trip/admin/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/resources/mvc-admin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/cn/wolfcode/trip/api/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/domain/ISave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/domain/Person1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/domain/ProxyPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/domain/TestMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/factory/SalesFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/sale/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/sale/PriceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/sale/Sales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/sale/SalesCEO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/test/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/test/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/ProperticesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/cglib/CglibDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/cglib/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/junit/JunitTestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/nio/NIODemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/regex/RegexDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/sort/BobbSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/lambda/AbastractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/lambda/InstatnceClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/lambda/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/thread/demo/EnergySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/thread/demo/EnergySystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/thread/demo/EnergyTransferTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/thread/demo/threaddemo/EnergySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/thread/demo/threaddemo/EnergyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/thread/demo/threaddemo/EnergyTransferTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/resources/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/java/com/shiyi/mybatis/domain/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/java/com/shiyi/mybatis/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/java/com/shiyi/mybatis/mapper/DepartMentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/java/com/shiyi/mybatis/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/com/shiyi/mybatis/mapper/departmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/com/shiyi/mybatis/mapper/employeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/test/java/com/shiyi/test/TestManyToOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/java/com/shiyi/mybatis/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/java/com/shiyi/mybatis/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/resources/com/shiyi/mybatis/mapper/employeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/test/java/com/shiyi/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/java/com/shiyi/mybatis/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/java/com/shiyi/mybatis/mapper/PeopleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/java/com/shiyi/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/com/shiyi/mybatis/mapper/peopleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/com/shiyi/mybatis/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/test/java/com/shiyi/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/java/com/shiyi/mybatis/domain/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/java/com/shiyi/mybatis/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/java/com/shiyi/mybatis/mapper/DepartMentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/java/com/shiyi/mybatis/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/com/shiyi/mybatis/mapper/departmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/com/shiyi/mybatis/mapper/employeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/test/java/com/shiyi/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/java/com/shiyi/mybatis/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/java/com/shiyi/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/resources/com/shiyi/mybatis/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/test/java/com/shiyi/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/domain/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/domain/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/domain/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/mapper/TeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/com/shiyi/mybatis/mapper/studentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/com/shiyi/mybatis/mapper/teacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/test/java/ManyToManyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/test/java/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restful/src/main/java/com/shiyi/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restful/src/main/resources/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restful/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restful/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restful/src/test/java/TestBreake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/advice/AroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/advice/ExceptionLogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/advice/MethodInvokeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/shiyi/handler/TransactionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/shiyi/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/test/java/com/shiyi/JDKDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/java/com/shiyi/service/impl/EmployeeServcieImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/java/com/shiyi/service/impl/EmployeeServiceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/test/java/com/shiyi/StaticProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/advice/AroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/advice/ExceptionLogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/advice/MethodInvokeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/shiyi/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/test/java/com/shiyi/XMLAOPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/src/main/java/com/shiyi/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/src/test/java/com/shiyi/RegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/di/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/di/EmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/di/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat4FactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/CatInstanceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/CatStaticFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/MyDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/proxy/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/proxy/ServiceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/proxy/ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/proxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/CatCreateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/CatStaticFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/StudentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/TeacherExistConditon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/DITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/TestProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/druid/DruidTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/ioc/CreateBeanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/ioc/InitAndDestoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/ioc/ScopeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/persontest/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/shiyi/Inter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/shiyi/springboot/com/shiyi/con.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/test/java/com/shiyi/springboot/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/java/com/shiyi/springbootmybatisdemo/start/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/java/com/shiyi/springbootmybatisdemo/start/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/java/com/shiyi/springbootmybatisdemo/start/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/java/com/shiyi/springbootmybatisdemo/start/mybatis/MybatisStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/resources/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/src/main/java/com/shiyi/springbootstart/com/shiyi/SetUniqueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/DateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/DateControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/RequestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/ResponseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/UserQueryObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/resources/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/redirect.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/static/json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/static/static.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/java/com/shiyi/mp/beans/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/java/com/shiyi/mp/beans/StudentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/java/com/shiyi/mp/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/test/java/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/advice/AroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/advice/ExceptionLogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/advice/MethodInvokeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/shiyi/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/test/java/com/shiyi/AnnoAOPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/java/com/shiyi/dao/IStudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/java/com/shiyi/dao/impl/StudentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/java/com/shiyi/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/java/com/shiyi/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/test/java/com/shiyi/RegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/advice/AroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/advice/ExceptionLogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/advice/MethodInvokeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/shiyi/handler/TransactionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/shiyi/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/test/java/com/shiyi/DynamicByCglib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/query/QueryObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/service/IDepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/service/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/service/impl/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/web/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/web/controller/ExcelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/web/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/web/interceptor/LoginInterceptoer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/web/viewBuild/ExcelViewBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/thread/Express.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/thread/PostMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/thread/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/resources/excelConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/resources/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/java/com/shiyi/ssm/service/IDepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/java/com/shiyi/ssm/service/impl/DepartmentImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/java/com/shiyi/ssm/web/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/java/com/shiyi/ssm/web/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/resources/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/webapp/WEB-INF/views/input.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/java/com/shiyi/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/java/com/shiyi/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/java/com/shiyi/service/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/java/com/shiyi/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/applicationAnno.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/com/shiyi/mapper/accountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/test/java/com/shiyi/TestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/test/java/com/shiyi/TestTransactionByAnno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/test/java/com/shiyi/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/longhoo/test.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/travelPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/travel.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="866">
+              <caret line="158" column="55" selection-start-line="158" selection-start-column="55" selection-end-line="158" selection-end-column="55" />
+              <folding>
+                <element signature="n#style#0;n#i#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/chatbox.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="641">
+              <caret line="133" column="20" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dialog</find>
+      <find>obj</find>
+      <find>file</find>
+      <find>$.get</find>
+      <find>travels</find>
+      <find>travels/list</find>
+      <find>\&quot;</find>
+      <find>commend</find>
+      <find>getHref</find>
+      <find>strategyCommend</find>
+      <find>hot</find>
+      <find>catalogs</find>
+      <find>tag</find>
+      <find>img/adam.jpg</find>
+      <find>img/mike.png</find>
+      <find>glyphicon-option-horizontal</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>'</replace>
+      <replace>../img/user/head.jpg</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/js/checkLogin.js" />
+        <option value="$PROJECT_DIR$/register.html" />
+        <option value="$PROJECT_DIR$/mine/simpleProfiles.html" />
+        <option value="$PROJECT_DIR$/mine/profiles.html" />
+        <option value="$PROJECT_DIR$/mine/info.html" />
+        <option value="$PROJECT_DIR$/mine/travels.html" />
+        <option value="$PROJECT_DIR$/travelContent.html" />
+        <option value="$PROJECT_DIR$/mine/editTravels.html" />
+        <option value="$PROJECT_DIR$/userProfiles.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/travelPage.html" />
+        <option value="$PROJECT_DIR$/strategyPage.html" />
+        <option value="$PROJECT_DIR$/mine/sdfjasd.html" />
+        <option value="$PROJECT_DIR$/js/pages/strategyPage.js" />
+        <option value="$PROJECT_DIR$/strategyDetails.html" />
+        <option value="$PROJECT_DIR$/js/common.js" />
+        <option value="$PROJECT_DIR$/js/pages/addComment.js" />
+        <option value="$PROJECT_DIR$/mine/addComment.html" />
+        <option value="$PROJECT_DIR$/js/pages/strategyCatalogs.js" />
+        <option value="$PROJECT_DIR$/strategyCatalogs.html" />
+        <option value="$PROJECT_DIR$/js/bootstrap-4.1.1-dist/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/test/chatbox.css" />
+        <option value="$PROJECT_DIR$/test/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="692" />
+    <option name="y" value="93" />
+    <option name="width" value="1440" />
+    <option name="height" value="832" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="true" />
+      <sortByType ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-4.1.1-dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-4.1.1-dist" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-4.1.1-dist" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-4.1.1-dist" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-4.1.1-dist" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-4.1.1-dist" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559110937654" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mine" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/bootstrap-4.1.1-dist" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/js/bootstrap-4.1.1-dist/css" />
+      <recent name="$PROJECT_DIR$/js/bootstrap-4.1.1-dist/js" />
+      <recent name="$PROJECT_DIR$/mine" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.38" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8099/" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <file path="$PROJECT_DIR$">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_app" />
+        <option name="HTTP_PORT" value="8099" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50077" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="50079" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17eb14ee-a1d7-40d9-98d4-83ad3168b791" name="Default Changelist" comment="" />
+      <created>1558069837624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558069837624</updated>
+      <workItem from="1558069842148" duration="11872000" />
+      <workItem from="1558226853540" duration="6144000" />
+      <workItem from="1558266485983" duration="263000" />
+      <workItem from="1558266849402" duration="3604000" />
+      <workItem from="1558360332629" duration="1830000" />
+      <workItem from="1558399680097" duration="5571000" />
+      <workItem from="1558448685684" duration="1480000" />
+      <workItem from="1558515962482" duration="17369000" />
+      <workItem from="1558659212374" duration="652000" />
+      <workItem from="1558697299938" duration="4389000" />
+      <workItem from="1558745396630" duration="10542000" />
+      <workItem from="1558835950182" duration="2689000" />
+      <workItem from="1558873436861" duration="2850000" />
+      <workItem from="1558918438501" duration="33101000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="102356000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2918455" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32961586" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Problems" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28397712" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32961586" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39900866" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Problems" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/jquery/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/crm/src/main/java/cn/wolfcode/crm/domain/BaseDomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/plugins/jquery-validation/message/messages_cn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/checkLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/plugins/eleditor/Eleditor.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/userProfiles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userProfiles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/simpleProfiles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/profiles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/editTravels.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="21" selection-start-line="20" selection-start-column="19" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#span#1;n#label#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/plugins/jrender/jrender.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/sdfjasd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/travels.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addComment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-564" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategyDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/addComment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategyPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/pages/strategyPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="6" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="85" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/pages/strategyCatalogs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="81" column="52" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/pages/addComment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategyCatalogs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/strategyCatalogs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap-4.1.1-dist/js/bootstrap.bundle.js.map">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap-4.1.1-dist/css/bootstrap-reboot.min.css.map">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap-3.3.7-dist/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap-4.1.1-dist/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap-4.1.1-dist/fonts/glyphicons-halflings-regular.eot">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap-4.1.1-dist/fonts/glyphicons-halflings-regular.woff2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap-4.1.1-dist/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelContent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap-4.1.1-dist/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5918">
+          <caret line="15423" column="14" lean-forward="true" selection-start-line="15423" selection-start-column="14" selection-end-line="15423" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/travel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chatbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="133" column="20" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="866">
+          <caret line="158" column="55" selection-start-line="158" selection-start-column="55" selection-end-line="158" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>app</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

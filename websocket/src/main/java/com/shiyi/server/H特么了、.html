@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    function Student(name, age, gender)
+    {
+
+        this.name = name,
+
+        this.age = age,
+
+        this.gender = gender,
+
+        this.attach=function(){
+            console.log('hello, World')
+        }
+
+    }
+    function fun(student){
+        student.name="大桥"
+    }
+
+    var stu= new Student ('孙尚香',18, true);
+    fun(stu);
+    console.log(stu);
+    console.log(typeof stu);
+
+
+
+</script>
+</body>
+</html>

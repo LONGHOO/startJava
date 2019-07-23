@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.crud.mapper.PermissionMapper">
+  <resultMap id="BaseResultMap" type="cn.wolfcode.crud.domain.Permission">
+    <id column="id" property="id" />
+    <result column="name" property="name" />
+    <result column="expression" property="expression" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey">
+    delete from permission
+    where id = #{id}
+  </delete>
+  <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+    insert into permission (name, expression)
+    values (#{name}, #{expression})
+  </insert>
+
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, name, expression
+    from permission
+  </select>
+
+  <select id="selectForCount" resultType="int" parameterType="cn.wolfcode.crud.query.QueryObject">
+    select count(0) from permission
+  </select>
+
+  <select id="selectForList" resultType="cn.wolfcode.crud.domain.Permission"
+          parameterType="cn.wolfcode.crud.query.QueryObject">
+    select id, name, expression
+    from permission
+  </select>
+
+  <select id="selectExpressions" resultType="string">
+    select expression from permission
+  </select>
+
+  <select id="selectByRoleId" resultType="cn.wolfcode.crud.domain.Permission">
+    select p.id,p.name,p.expression
+    from permission p
+    join role_permission rp on p.id = rp.permission_id
+    where role_id = #{roleId}
+  </select>
+
+    <!--根据id查权限-->
+    <select id="selectExpressionByEmpId" resultType="string">
+      select p.expression
+      from permission p
+      left join role_permission rp on p.id = rp.permission_id
+      left join employee_role er on rp.role_id = er.role_id
+      where er.employee_id = #{empId}
+    </select>
+
+  <!--shiro授权查询权限-->
+  <select id="getPermissionsByEmpId" resultType="string">
+      select p.expression
+      from permission p
+      left join role_permission rp on p.id = rp.permission_id
+      left join employee_role er on rp.role_id = er.role_id
+      where er.employee_id = #{id}
+  </select>
+
+</mapper>

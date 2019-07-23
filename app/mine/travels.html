@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的游记</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/js/bootstrap-4.1.1-dist/css/bootstrap.min.css">
+    <script src="/js/jquery/jquery.min.js"></script>
+    <script src="/js/bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>
+    <script src="/js/plugins/jrender/jrender.min.js"></script>
+    <link rel="stylesheet" href="/css/font/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/css/reset.css"/>
+    <link rel="stylesheet" href="/css/userTravels.css"/>
+    <link rel="stylesheet" href="/js/plugins/dialog2/dialog.css"/>
+    <script src="/js/plugins/dialog2/dialog.min.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/checkLogin.js"></script>
+    <script>
+        $(function () {
+            //默认当前页为1
+            var currentPage = 1;
+            var totalPage = 1;
+            //获取当前用户的id
+            var userId = user.id;
+            //创建列表来包装当前页面所有获取到的数据
+            var contains = [];
+            //防止在请求未响应的时候重复提交请求，做个标记，true：表示当前请求为作响应
+            var loading = false;
+            var query = function(){
+                //如果当前正在作请求操作，不能发起新的请求
+                if(loading){
+                    return ;
+                }
+                //发送请求之前将状态设为true，不能重复发送请求
+                loading = true;
+                $.get(baseUrl+"/users/"+userId+"/travel",{currentPage:currentPage},function(data){
+                    $.merge(contains,data.list);
+                    var result = {list:contains};
+                    $(".travels").renderValues(result,{
+                        getHref:function (item,value) {
+                            $(item).attr('href','/mine/editTravels.html?id='+value);
+                        }
+                    });
+                    //响应结束后允许发送新的请求
+                    loading = false;
+                    currentPage ++;
+                    totalPage = data.pages;
+                })
+            }
+            //默认加载第一页的数据
+            query();
+            //添加屏幕滚动监听器
+            $(window).scroll(function(){
+                //如果当前屏幕距离屏幕底部小于50px时，发送请求
+                if($(document).scrollTop()+$(window).height() >= $(document).height()-50){
+                    if(currentPage <= totalPage){
+                        query();
+                    }else if(currentPage === (totalPage +1)){
+                        currentPage ++;
+                        $(document).dialog({
+                            content: "已经触发到底线了"
+                        });
+                    }
+
+                }
+            })
+        })
+    </script>
+
+</head>
+
+<body>
+<div class="search-head">
+    <div class="row nav-search">
+        <div class="col">
+            <a href="profiles.html">
+                <span><i class="fa fa-chevron-left"></i></span>
+            </a>
+        </div>
+        <div class="col">
+            <span>我的游记</span>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>
+
+
+<div class="container travels">
+    <dl class="list" render-loop="list">
+        <dd>
+            <a render-fun="getHref" render-key="list.id">
+                <img render-src="list.coverUrl">
+                <h6 class="title" render-html="list.title"></h6>
+                <p>最近更新时间 <span render-html="list.lastUpdateTime"></span>
+                    <span class="span-right">
+							  <i class="fa fa-heart"></i><span>0</span>收藏
+						  <i class="fa fa-thumbs-o-up"></i><span>0</span>点赞</span>
+                </p>
+            </a>
+        </dd>
+    </dl>
+</div>
+
+</body>
+</html>

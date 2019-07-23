@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shiyi.mybatis.mapper.DepartMentMapper">
+
+
+    <resultMap id="oneToMany" type="Department">
+        <id column="id" property="id"></id>
+        <result column="name" property="name"/>
+        <collection property="emps" column="id"
+                    select="com.shiyi.mybatis.mapper.EmployeeMapper.queryListByDepartmentId">
+        </collection>
+    </resultMap>
+    <insert id="save" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO
+                department(name)
+        VALUES(#{name})
+    </insert>
+    <select id="queryById" resultMap="oneToMany">
+        select id,name from department where id=#{id}
+    </select>
+</mapper>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shiyi.mybatis.mapper.EmployeeMapper">
+
+<select id="queryByMinSalary" resultType="com.shiyi.mybatis.domain.Employee">
+  select * from employee
+  <where>
+    <if test="salary != null">
+        and salary > #{salary}
+    </if>
+
+  </where>
+</select>
+
+    <select id="qeuryByMinSalaryAndMaxSalary" resultType="com.shiyi.mybatis.domain.Employee">
+        select * from employee
+        <where>
+            <if test="minSalary != null">
+                salary > #{minSalary}
+            </if>
+            <if test="maxSalary != null">
+                and salary &lt; #{maxSalary}
+            </if>
+        </where>
+    </select>
+
+    <select id="queryByDeptId" resultType="com.shiyi.mybatis.domain.Employee">
+        select * from employee where deptId = #{deptId}
+        <!--<where>-->
+            <!--<choose>-->
+                <!--<when test="deptId != null">-->
+                    <!---->
+                <!--</when>-->
+                <!--<otherwise>-->
+                    <!--deptId is not null-->
+                <!--</otherwise>-->
+            <!--</choose>-->
+        <!--</where>-->
+    </select>
+    
+    <resultMap id="employeeBystep" type="com.shiyi.mybatis.domain.Employee">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="deptId" property="deptId"/>
+        <association property="dept" column="deptId" javaType="Department" select="com.shiyi.mybatis.mapper.DepartMentMapper.queryById"></association>
+    </resultMap>
+    <select id="queryByStep" resultMap="employeeBystep">
+         select id,name,deptId from employee where id = #{id}
+    </select>
+    <resultMap id="defineName" type="com.shiyi.mybatis.domain.Employee">
+        <id column="id" property="id"></id>
+        <result column="name" property="name"></result>
+        <association property="dept" javaType="Department" columnPrefix="d_" >
+            <id column="id" property="id"></id>
+            <result column="name" property="name"></result>
+        </association>
+
+    </resultMap>
+    <select id="queryAll" resultMap="defineName">
+        select e.id,e.name,d.id as d_id, d.name as d_name from employee e,department d
+    </select>
+</mapper>

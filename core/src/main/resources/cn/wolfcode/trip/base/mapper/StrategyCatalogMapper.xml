@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.trip.base.mapper.StrategyCatalogMapper">
+  <resultMap id="BaseResultMap" type="cn.wolfcode.trip.base.domain.StrategyCatalog">
+    <id column="id" property="id" />
+    <result column="name" property="name" />
+    <result column="sequence" property="sequence" />
+    <result column="state" property="state" />
+    <association property="strategy" javaType="Strategy" columnPrefix="st_">
+      <id column="id" property="id" />
+      <result column="title" property="title" />
+    </association>
+    <collection property="details" column="id" select="cn.wolfcode.trip.base.mapper.StrategyDetailMapper.selectByCatalogId"/>
+  </resultMap>
+  <delete id="deleteByPrimaryKey">
+    delete from strategycatalog
+    where id = #{id}
+  </delete>
+  <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+    insert into strategycatalog (name, strategy_id, sequence, state)
+    values (#{name}, #{strategy.id}, #{sequence}, #{state})
+  </insert>
+  <update id="updateByPrimaryKey">
+    update strategycatalog
+    set name = #{name},
+      strategy_id = #{strategy.id},
+      sequence = #{sequence},
+      state = #{state}
+    where id = #{id}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap">
+    select id, name, strategy_id, sequence, state
+    from strategycatalog
+    where id = #{id}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, name, strategy_id, sequence, state
+    from strategycatalog
+  </select>
+  <select id="selectForList" resultMap="BaseResultMap">
+    select sc.id, sc.name, sc.sequence, sc.state,st.id st_id,st.title st_title
+    from strategycatalog sc
+    left join strategy st on sc.strategy_id = st.id
+    <where>
+      <if test="strategyId > -1">
+        and sc.strategy_id = #{strategyId}
+      </if>
+    </where>
+  </select>
+    <select id="getMaxSequenceByStrategyId" resultType="java.lang.Integer">
+      select ifnull(max(sequence),0) from strategycatalog where strategy_id = #{id}
+    </select>
+    <select id="queryForStrategyId" resultMap="BaseResultMap">
+      select log.id, log.name, log.strategy_id, log.sequence, log.state
+    from strategycatalog log
+    where strategy_id = #{strategyId }
+    </select>
+
+</mapper>

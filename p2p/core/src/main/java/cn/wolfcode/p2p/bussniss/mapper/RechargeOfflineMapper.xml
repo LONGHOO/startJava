@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.p2p.bussniss.mapper.RechargeOfflineMapper">
+  <resultMap id="BaseResultMap" type="cn.wolfcode.p2p.bussniss.domain.RechargeOffline">
+    <id column="id" jdbcType="BIGINT" property="id" />
+
+    <result column="tradeCode" jdbcType="VARCHAR" property="tradeCode" />
+    <result column="rechargeDate" jdbcType="TIMESTAMP" property="rechargeDate" />
+    <result column="amount" jdbcType="DECIMAL" property="amount" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="state" jdbcType="TINYINT" property="state" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="auditTime" jdbcType="TIMESTAMP" property="auditTime" />
+    <result column="applyTime" jdbcType="TIMESTAMP" property="applyTime" />
+    <association property="applier" javaType="cn.wolfcode.p2p.base.domain.LoginInfo" columnPrefix="app_">
+      <id column="id" jdbcType="BIGINT" property="id" />
+      <result column="username" property="username"/>
+    </association>
+    <association property="auditor" javaType="cn.wolfcode.p2p.base.domain.LoginInfo" columnPrefix="ad_">
+      <id column="id" jdbcType="BIGINT" property="id" />
+      <result column="username" property="username"/>
+    </association>
+    <association property="bankInfo" javaType="cn.wolfcode.p2p.bussniss.domain.PlatformBankInfo" columnPrefix="bank_">
+      <id column="id" jdbcType="BIGINT" property="id" />
+      <result column="bankForkname" property="bankForkname"/>
+      <result column="bankName" property="bankName"/>
+      <result column="accountNumber" property="accountNumber"/>
+    </association>
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from rechargeoffline
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="cn.wolfcode.p2p.bussniss.domain.RechargeOffline" useGeneratedKeys="true">
+    insert into rechargeoffline (bankInfo_id, tradeCode, rechargeDate, 
+      amount, note, state, 
+      remark, auditTime, applyTime, 
+      auditor_id, applier_id)
+    values (#{bankInfo.id,jdbcType=BIGINT}, #{tradeCode,jdbcType=VARCHAR}, #{rechargeDate,jdbcType=TIMESTAMP}, 
+      #{amount,jdbcType=DECIMAL}, #{note,jdbcType=VARCHAR}, #{state,jdbcType=TINYINT}, 
+      #{remark,jdbcType=VARCHAR}, #{auditTime,jdbcType=TIMESTAMP}, #{applyTime,jdbcType=TIMESTAMP}, 
+      #{auditor.id,jdbcType=BIGINT}, #{applier.id,jdbcType=BIGINT})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="cn.wolfcode.p2p.bussniss.domain.RechargeOffline">
+    update rechargeoffline
+    set bankInfo_id = #{bankInfo.id,jdbcType=BIGINT},
+      tradeCode = #{tradeCode,jdbcType=VARCHAR},
+      rechargeDate = #{rechargeDate,jdbcType=TIMESTAMP},
+      amount = #{amount,jdbcType=DECIMAL},
+      note = #{note,jdbcType=VARCHAR},
+      state = #{state,jdbcType=TINYINT},
+      remark = #{remark,jdbcType=VARCHAR},
+      auditTime = #{auditTime,jdbcType=TIMESTAMP},
+      applyTime = #{applyTime,jdbcType=TIMESTAMP},
+      auditor_id = #{auditor.id,jdbcType=BIGINT},
+      applier_id = #{applier.id,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select ro.id, ro.bankInfo_id, ro.tradeCode, ro.rechargeDate, ro.amount, ro.note, ro.state, ro.remark, ro.auditTime,
+           ro.applyTime, ro.auditor_id, ro.applier_id,
+           info.id app_id,info.username app_username,
+           ad.id ad_id,ad.username ad_username,
+           bank.id bank_id,bank.bankForkname bank_bankForkname,bank.bankName bank_bankName,bank.accountNumber bank_accountNumber
+    from rechargeoffline ro
+           left join logininfo info on ro.applier_id = info.id
+           left join logininfo ad on ro.auditor_id = ad.id
+           left join platformbankinfo bank on bankInfo_id = bank.id
+    where ro.id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select ro.id, ro.bankInfo_id, ro.tradeCode, ro.rechargeDate, ro.amount, ro.note, ro.state, ro.remark, ro.auditTime,
+           ro.applyTime, ro.auditor_id, ro.applier_id,
+           info.id app_id,info.username app_username,
+           ad.id ad_id,ad.username ad_username,
+           bank.id bank_id,bank.bankForkname bank_bankForkname,bank.bankName bank_bankName,bank.accountNumber bank_accountNumber
+    from rechargeoffline ro
+           left join logininfo info on ro.applier_id = info.id
+           left join logininfo ad on ro.auditor_id = ad.id
+           left join platformbankinfo bank on bankInfo_id = bank.id
+  </select>
+    <select id="getByPrimaryKey" resultMap="BaseResultMap">
+        select ro.id, ro.bankInfo_id, ro.tradeCode, ro.rechargeDate, ro.amount, ro.note, ro.state, ro.remark, ro.auditTime,
+               ro.applyTime, ro.auditor_id, ro.applier_id,
+               info.id app_id,info.username app_username,
+               ad.id ad_id,ad.username ad_username,
+               bank.id bank_id,bank.bankForkname bank_bankForkname,bank.bankName bank_bankName,bank.accountNumber bank_accountNumber
+        from rechargeoffline ro
+                 left join logininfo info on ro.applier_id = info.id
+                 left join logininfo ad on ro.auditor_id = ad.id
+                 left join platformbankinfo bank on bankInfo_id = bank.id
+      where ro.id = #{id}
+    </select>
+  <select id="query" resultMap="BaseResultMap">
+    select ro.id, ro.bankInfo_id, ro.tradeCode, ro.rechargeDate, ro.amount, ro.note, ro.state, ro.remark, ro.auditTime,
+           ro.applyTime, ro.auditor_id, ro.applier_id,
+           info.id app_id,info.username app_username,
+           ad.id ad_id,ad.username ad_username,
+           bank.id bank_id,bank.bankForkname bank_bankForkname,bank.bankName bank_bankName,bank.accountNumber bank_accountNumber
+    from rechargeoffline ro
+    left join logininfo info on ro.applier_id = info.id
+    left join logininfo ad on ro.auditor_id = ad.id
+    left join platformbankinfo bank on bankInfo_id = bank.id
+  </select>
+</mapper>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.p2p.base.mapper.IpLogMapper">
+    <select id="query" resultType="cn.wolfcode.p2p.base.domain.IpLog">
+        select id, username, loginTime, ip, state, userType
+        from iplog
+        <where>
+            <if test="username != null and username != ''">
+                and username = #{username}
+            </if>
+            <if test="state > -1">
+              and state = #{state}
+            </if>
+            <if test="beginDate != null">
+                and loginTime >= #{beginDate}
+            </if>
+            <if test="endDate != null">
+                and loginTime &lt;= #{endDate}
+            </if>
+            <if test="userType > -1">
+                and userType = #{userType}
+            </if>
+            <if test="keyword != null">
+                and (username like concat('%',#{keyword},'%') or ip like concat('%',#{keyword},'%'))
+            </if>
+        </where>
+
+
+    </select>
+    <resultMap id="BaseResultMap" type="cn.wolfcode.p2p.base.domain.IpLog">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="username" jdbcType="VARCHAR" property="username"/>
+        <result column="loginTime" jdbcType="TIMESTAMP" property="logintime"/>
+        <result column="ip" jdbcType="VARCHAR" property="ip"/>
+        <result column="state" jdbcType="TINYINT" property="state"/>
+        <result column="userType" jdbcType="TINYINT" property="usertype"/>
+    </resultMap>
+
+    <insert id="insert" keyColumn="id" keyProperty="id" parameterType="cn.wolfcode.p2p.base.domain.IpLog"
+            useGeneratedKeys="true">
+        insert into iplog (username, loginTime, ip,
+                           state, userType)
+        values (#{username,jdbcType=VARCHAR}, #{logintime,jdbcType=TIMESTAMP}, #{ip,jdbcType=VARCHAR},
+                #{state,jdbcType=TINYINT}, #{usertype,jdbcType=TINYINT})
+    </insert>
+    <select id="selectAll" resultMap="BaseResultMap">
+        select id, username, loginTime, ip, state, userType
+        from iplog
+    </select>
+</mapper>

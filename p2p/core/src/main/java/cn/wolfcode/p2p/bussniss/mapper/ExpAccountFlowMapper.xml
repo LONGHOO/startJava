@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.p2p.bussniss.mapper.ExpAccountFlowMapper">
+  <resultMap id="BaseResultMap" type="cn.wolfcode.p2p.bussniss.domain.ExpAccountFlow">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="actionType" jdbcType="TINYINT" property="actionType" />
+    <result column="amount" jdbcType="DECIMAL" property="amount" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="usableAmount" jdbcType="DECIMAL" property="usableAmount" />
+    <result column="freezedAmount" jdbcType="DECIMAL" property="freezedAmount" />
+    <result column="actionTime" jdbcType="TIMESTAMP" property="actionTime" />
+    <result column="expAccountId" jdbcType="BIGINT" property="expAccountId" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from expaccountflow
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="cn.wolfcode.p2p.bussniss.domain.ExpAccountFlow" useGeneratedKeys="true">
+    insert into expaccountflow (actionType, amount, note, 
+      usableAmount, freezedAmount, actionTime, 
+      expAccountId)
+    values (#{actionType,jdbcType=TINYINT}, #{amount,jdbcType=DECIMAL}, #{note,jdbcType=VARCHAR}, 
+      #{usableAmount,jdbcType=DECIMAL}, #{freezedAmount,jdbcType=DECIMAL}, #{actionTime,jdbcType=TIMESTAMP}, 
+      #{expAccountId,jdbcType=BIGINT})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="cn.wolfcode.p2p.bussniss.domain.ExpAccountFlow">
+    update expaccountflow
+    set actionType = #{actionType,jdbcType=TINYINT},
+      amount = #{amount,jdbcType=DECIMAL},
+      note = #{note,jdbcType=VARCHAR},
+      usableAmount = #{usableAmount,jdbcType=DECIMAL},
+      freezedAmount = #{freezedAmount,jdbcType=DECIMAL},
+      actionTime = #{actionTime,jdbcType=TIMESTAMP},
+      expAccountId = #{expAccountId,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, actionType, amount, note, usableAmount, freezedAmount, actionTime, expAccountId
+    from expaccountflow
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, actionType, amount, note, usableAmount, freezedAmount, actionTime, expAccountId
+    from expaccountflow
+  </select>
+</mapper>

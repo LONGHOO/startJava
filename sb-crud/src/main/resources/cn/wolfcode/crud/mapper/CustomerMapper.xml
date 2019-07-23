@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.crud.mapper.CustomerMapper">
+  <resultMap id="BaseResultMap" type="cn.wolfcode.crud.domain.Customer">
+    <id column="id" property="id" />
+    <result column="name" property="name" />
+    <result column="age" property="age" />
+    <result column="gender" property="gender" />
+    <result column="tel" property="tel" />
+    <result column="qq" property="qq" />
+    <result column="input_time" property="inputTime" />
+    <result column="status" property="status" />
+    <association property="job" javaType="cn.wolfcode.crud.domain.Systemdictionaryitem" columnPrefix="job_">
+      <id column="id" property="id" />
+      <result column="title" property="title" />
+    </association>
+    <association property="source" javaType="cn.wolfcode.crud.domain.Systemdictionaryitem" columnPrefix="source_">
+      <id column="id" property="id" />
+      <result column="title" property="title" />
+    </association>
+    <association property="seller" javaType="cn.wolfcode.crud.domain.Employee" columnPrefix="seller_">
+      <id column="id" property="id" />
+      <result column="name" property="name" />
+    </association>
+    <association property="inputUser" javaType="cn.wolfcode.crud.domain.Employee" columnPrefix="inputUser_">
+      <id column="id" property="id" />
+      <result column="name" property="name" />
+    </association>
+  </resultMap>
+  <delete id="deleteByPrimaryKey">
+    delete from customer
+    where id = #{id}
+  </delete>
+  <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+    insert into customer (name, age, gender, tel, qq, job_id, source_id, seller_id, 
+      inputUser_id, input_time, status)
+    values (#{name}, #{age}, #{gender}, #{tel}, #{qq}, #{job.id}, #{source.id}, #{seller.id},
+      #{inputUser.id}, #{inputTime}, #{status})
+  </insert>
+  <update id="updateByPrimaryKey">
+    update customer
+    set name = #{name},
+      age = #{age},
+      gender = #{gender},
+      tel = #{tel},
+      qq = #{qq},
+      job_id = #{job.id},
+      source_id = #{source.id},
+      seller_id = #{seller.id}
+    where id = #{id}
+  </update>
+      <!--inputUser_id = #{inputUser.id},
+      input_time = #{inputTime}-->
+  <!--潜在客户修改状态-->
+  <update id="updateStatus">
+    update customer set status = #{status} where id=#{cid}
+  </update>
+  <!--潜在客户移交给其他人,然后移交历史记录,再更新数据-->
+  <update id="updateSellerIdByPrimaryKey">
+    update customer set seller_id = #{newSellerId} where id = #{customerId}
+  </update>
+
+  <select id="selectForList" resultMap="BaseResultMap">
+      select c.id, c.name,c.age,c.gender,c.tel,c.qq, c.input_time,c.status,
+        job.id job_id,
+        job.title job_title,
+        source.id source_id,
+        source.title source_title,
+        seller.id seller_id,
+        seller.name seller_name,
+        inputUser.id inputUser_id ,
+        inputUser.name inputUser_name
+      from customer c
+      left join systemdictionaryitem job on job.id = c.job_id
+      left join systemdictionaryitem source on source.id = c.source_id
+      left join employee seller on seller.id = c.seller_id
+      left join employee inputUser on inputUser.id = c.inputUser_id
+      <where>
+        <if test="status != null">
+          and c.status = #{status}
+        </if>
+        <if test="sellerId > 0 ">
+          and seller.id = #{sellerId}
+        </if>
+        <if test="keyword!=null">
+          and (c.name like concat('%',#{keyword},'%') or c.tel like concat('%',#{keyword},'%'))
+        </if>
+      </where>
+  </select>
+
+
+</mapper>

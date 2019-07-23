@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shiyi.mybatis.mapper.UserMapper">
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        insert into  t_user(username,age) values(#{username},#{age})
+    </insert>
+
+    <update id="update">
+        update t_user set username=#{username},age=#{age}
+    </update>
+
+    <delete id="deleteById">
+        delete from t_user where id=#{id}
+    </delete>
+
+    <select id="getById" resultType="com.shiyi.mybatis.domain.User">
+        select id,username,age from t_user where id=#{id}
+    </select>
+
+    <select id="selectAll" resultType="com.shiyi.mybatis.domain.User">
+        select * from t_user
+
+    </select>
+
+</mapper>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.p2p.bussniss.mapper.PaymentScheduleMapper">
+  <resultMap id="BaseResultMap" type="cn.wolfcode.p2p.bussniss.domain.PaymentSchedule">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="payDate" jdbcType="TIMESTAMP" property="payDate" />
+    <result column="deadLine" jdbcType="TIMESTAMP" property="deadLine" />
+    <result column="totalAmount" jdbcType="DECIMAL" property="totalAmount" />
+    <result column="principal" jdbcType="DECIMAL" property="principal" />
+    <result column="interest" jdbcType="DECIMAL" property="interest" />
+    <result column="monthIndex" jdbcType="TINYINT" property="monthIndex" />
+    <result column="state" jdbcType="TINYINT" property="state" />
+    <result column="bidRequestId" jdbcType="BIGINT" property="bidRequestId" />
+    <result column="bidRequestTitle" jdbcType="VARCHAR" property="bidRequestTitle" />
+    <result column="bidRequestType" jdbcType="TINYINT" property="bidRequestType" />
+    <result column="returnType" jdbcType="TINYINT" property="returnType" />
+    <association property="borrowUser" javaType="cn.wolfcode.p2p.base.domain.LoginInfo" columnPrefix="borrowUser_">
+      <id column="id" jdbcType="BIGINT" property="id" />
+    </association>
+    <collection property="details"
+                column="id" select="cn.wolfcode.p2p.bussniss.mapper.PaymentScheduleDetailMapper.selectByScheduleId">
+    </collection>
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from paymentschedule
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="cn.wolfcode.p2p.bussniss.domain.PaymentSchedule" useGeneratedKeys="true">
+    insert into paymentschedule (payDate, deadLine, totalAmount, 
+      principal, interest, monthIndex, 
+      state, bidRequestId, borrowUser_id, 
+      bidRequestTitle, bidRequestType, returnType
+      )
+    values (#{payDate,jdbcType=TIMESTAMP}, #{deadLine,jdbcType=TIMESTAMP}, #{totalAmount,jdbcType=DECIMAL}, 
+      #{principal,jdbcType=DECIMAL}, #{interest,jdbcType=DECIMAL}, #{monthIndex,jdbcType=TINYINT}, 
+      #{state,jdbcType=TINYINT}, #{bidRequestId,jdbcType=BIGINT}, #{borrowUser.id,jdbcType=BIGINT}, 
+      #{bidRequestTitle,jdbcType=VARCHAR}, #{bidRequestType,jdbcType=TINYINT}, #{returnType,jdbcType=TINYINT}
+      )
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="cn.wolfcode.p2p.bussniss.domain.PaymentSchedule">
+    update paymentschedule
+    set payDate = #{payDate,jdbcType=TIMESTAMP},
+      deadLine = #{deadLine,jdbcType=TIMESTAMP},
+      totalAmount = #{totalAmount,jdbcType=DECIMAL},
+      principal = #{principal,jdbcType=DECIMAL},
+      interest = #{interest,jdbcType=DECIMAL},
+      monthIndex = #{monthIndex,jdbcType=TINYINT},
+      state = #{state,jdbcType=TINYINT},
+      bidRequestId = #{bidRequestId,jdbcType=BIGINT},
+      borrowUser_id = #{borrowUser.id,jdbcType=BIGINT},
+      bidRequestTitle = #{bidRequestTitle,jdbcType=VARCHAR},
+      bidRequestType = #{bidRequestType,jdbcType=TINYINT},
+      returnType = #{returnType,jdbcType=TINYINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, payDate, deadLine, totalAmount, principal, interest, monthIndex, state, 
+    bidRequestId, borrowUser_id, bidRequestTitle, bidRequestType, returnType
+    from paymentschedule
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, payDate, deadLine, totalAmount, principal, interest, monthIndex, state, 
+    bidRequestId, borrowUser_id, bidRequestTitle, bidRequestType, returnType
+    from paymentschedule
+  </select>
+    <select id="selectByBorrowUserId" resultType="cn.wolfcode.p2p.bussniss.domain.PaymentSchedule">
+      select id, payDate, deadLine, totalAmount, principal, interest, monthIndex, state,
+             bidRequestId, borrowUser_id, bidRequestTitle, bidRequestType, returnType
+      from paymentschedule
+      <where>
+        borrowUser_id = #{id}
+      </where>
+    </select>
+  <select id="countReturnFinishedByBorrowId" resultType="java.lang.Integer">
+    select count(*) totalCount
+    from paymentschedule
+    where borrowUser_id = #{id}
+    and state = 1
+  </select>
+</mapper>

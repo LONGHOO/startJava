@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.trip.base.mapper.TravelCommendMapper">
+  <resultMap id="BaseResultMap" type="cn.wolfcode.trip.base.domain.TravelCommend">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="travel_id" jdbcType="BIGINT" property="travel.id" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="subTitle" jdbcType="VARCHAR" property="subTitle" />
+    <result column="coverUrl" jdbcType="VARCHAR" property="coverUrl" />
+    <result column="schedule" jdbcType="DATE" property="schedule" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from travelcommend
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="cn.wolfcode.trip.base.domain.TravelCommend" useGeneratedKeys="true">
+    insert into travelcommend (travel_id, title, subTitle, 
+      coverUrl, schedule, type
+      )
+    values (#{travel.id,jdbcType=BIGINT}, #{title,jdbcType=VARCHAR}, #{subTitle,jdbcType=VARCHAR}, 
+      #{coverUrl,jdbcType=VARCHAR}, #{schedule,jdbcType=DATE}, #{type,jdbcType=INTEGER}
+      )
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="cn.wolfcode.trip.base.domain.TravelCommend">
+    update travelcommend
+    set
+      title = #{title,jdbcType=VARCHAR},
+      subTitle = #{subTitle,jdbcType=VARCHAR},
+      coverUrl = #{coverUrl,jdbcType=VARCHAR},
+      schedule = #{schedule,jdbcType=DATE},
+      type = #{type,jdbcType=INTEGER}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, travel_id, title, subTitle, coverUrl, schedule, type
+    from travelcommend
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, travel_id, title, subTitle, coverUrl, schedule, type
+    from travelcommend
+  </select>
+  <select id="query" resultMap="BaseResultMap">
+     select id, travel_id, title, subTitle, coverUrl, schedule, type
+    from travelcommend
+    <where>
+      <if test="type > -1">
+        and type = #{type}
+      </if>
+      <if test="schedule != null">
+        and schedule &lt; now()
+      </if>
+    </where>
+  </select>
+
+  <select id="queryForList" resultType="map">
+    select tc.id, tc.title, tc.subTitle, tc.coverUrl, tc.schedule, tc.type,
+    t.id travelId,u.id userId, u.nickName nickName,u.headImgUrl headImgUrl,r.id regionId, r.name regionName
+    from travelcommend tc
+    left join travel t on t.id = tc.travel_id
+    left join user u on t.author_id = u.id
+    left join region r on r.id = t.place_id
+    <where>
+      <if test="type > -1">
+        and tc.type = #{type}
+      </if>
+      <if test="schedule != null">
+        and tc.schedule &lt; now()
+      </if>
+    </where>
+  </select>
+</mapper>

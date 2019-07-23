@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.wolfcode.crud.mapper.PermissonMapper">
+    <resultMap id="BaseResultMap" type="cn.wolfcode.crud.domain.Permission">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+        <result column="expression" property="expression" jdbcType="VARCHAR"/>
+    </resultMap>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from permission
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+    <delete id="deleteAll">
+      delete from permission
+    </delete>
+    <insert id="insert" parameterType="cn.wolfcode.crud.domain.Permission" useGeneratedKeys="true" keyProperty="id">
+    insert into permission (name, expression)
+    values (#{name,jdbcType=VARCHAR}, #{expression,jdbcType=VARCHAR})
+  </insert>
+
+    <select id="selectAll" resultMap="BaseResultMap">
+    select id, name, expression
+    from permission
+  </select>
+    <select id="queryForCount" resultType="java.lang.Integer">
+    select count(id) from permission
+  </select>
+    <select id="queryForList" resultType="cn.wolfcode.crud.domain.Permission">
+    select id,name,expression
+    from permission
+    limit #{start},#{pageSize}
+  </select>
+    <select id="getAllPermissionsOfPerssionName" resultType="java.lang.String">
+    select expression from permission
+  </select>
+
+    <select id="queryPermissionById" resultType="cn.wolfcode.crud.domain.Permission">
+        select id,name,expression from permission
+    </select>
+
+    <select id="getByPermissionId" resultType="cn.wolfcode.crud.domain.Permission">
+        select p.id,p.name,p.expression from permission p
+        left join role_permission rp on rp.permission_id = p.id
+        where rp.role_id = #{roleId}
+    </select>
+
+
+    <select id="queryAll" resultType="cn.wolfcode.crud.domain.Permission">
+        select id,name,expression from permission
+    </select>
+</mapper>

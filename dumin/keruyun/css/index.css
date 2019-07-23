@@ -1,0 +1,198 @@
+/*
+版心：1880px  主要字号：16px   主要字体颜色：#595757
+*/
+
+/* 添加默认样式 ========================= */
+/*html { font-size: 100px; }*/
+
+/*文本样式，字体大小 字体颜色*/
+body { font-family: "微软雅黑"; font-size: 18px; color: #595757; overflow-x: hidden; }
+
+/*指定a标签的颜色、去除下划线*/
+a { color: #595757; text-decoration: none;}
+
+/*指定a标签指上时的颜色*/
+a:hover { color: #595757;}
+
+/*对图片处理下面边距的问题*/
+img { vertical-align: top;}
+
+
+/* 版心 */
+.wrapper { width: 100%;max-width: 1800px;margin: auto;}
+
+/* 公共样式 */
+.commonfz {font-size: 42px;font-weight: 600;}
+
+
+/* 导航栏 nav ==================================*/
+.wrapper {}
+
+#header { height: 110px;background: #f3f3f3;margin: auto;line-height: 110px}
+
+#header img { float: left;margin-top: 32px;margin-left: 3%;}
+
+/*左外边距：210px / 1880px * 100 */
+#header .navList { float: left;text-align: center;width: 60%;margin-left: 5%;}
+
+#header .navList li {float: left;padding: 0 1.2%;font-size: 20px;}
+
+#header .navList a:hover {color: #35bdff}
+
+#header .navLang {float: right;margin-right: 10%;}
+
+
+/* banner =================================== */
+
+#banner .scroll img {height: auto;width: 100%;margin-bottom: 10px;}
+
+#banner .banImg img {height: auto;width: 100%;}
+
+#banner .banSort { margin: 0 auto;height: 1106px;overflow: hidden;}
+
+#banner .banSort ul {margin: 0 -10px;overflow: hidden;}
+
+#banner .banSort li {width: 50%;height: auto;float: left;padding: 0 10px;box-sizing: border-box;overflow: hidden;margin-top: 10px;}
+
+
+/*  经营类别、信息介绍  info ========================  */
+#info {margin-top: 10px;}
+
+#info .kind { overflow: hidden;text-align: center;background: #E3F1FB;margin-bottom: 10px;}
+
+#info .kind .list {width: 1400px;margin: 0 auto;}
+
+#info .kind .list .commonfz {height: 244px;line-height: 244px;}
+
+#info .list .items {width: 100%;height: 390px;}
+
+#info .kind li {width: 16.6%;float: left;text-align: center;}
+
+#info .kind .item p { width: 148px;height: 148px;background: #0093FF;border-radius: 50%;line-height: 148px;margin: 0 auto;}
+
+#info .item .iconfont { font-size: 80px;color: #fff;}
+
+#info .kind .item span {font-size: 22px;line-height: 76px;display: block;}
+
+
+#info .brief { height: 340px;width: 100%;background: #E3F1FB;margin-top: 10px;overflow: hidden;}
+
+#info .content { height: 130px;width: 1075px;margin: 105px auto 0;}
+
+#info .content .item { width: 20%;height: 100%;float: left;border-right: 2px solid #CFDBE4;padding: 0 1.7% 0 1.5%;text-align: center;box-sizing: border-box;}
+
+#info .content .item P {height: 86px; line-height: 86px;font-size: 50px;}
+
+#info .content .last { border-right: 0;}
+
+#info .content .item span { text-align: center;height: 42px;line-height: 42px;display: block}
+
+
+/* 客户区 client ============================ */
+#client {height: auto;background: #F3F3F3;margin-top: 10px;overflow: hidden;}
+
+
+#client .title {height: 145px;line-height: 145px;margin-top: 74px;font-size: 48px;text-align: center;}
+
+#client .show { height: 562px;background: #704F38;}
+
+#client .show .left {background: #704F38;width: 50%;float: left;height: 100%;color: #FFFFFF;font-size: 22px;}
+
+#client .show .left dl { width: 527px;margin-right: 8.9%;float: right;}
+
+#client .left .commonfz {font-size: 45px;line-height: 70px;margin-top: 84px;}
+
+#client .left .second {font-size: 28px;line-height: 54px;}
+
+#client .left .three { line-height: 34px;margin: 34px 0 59px;}
+
+#client .left a { color: #FFFFFF;}
+
+#client .left .iconfont {font-size: 32px;line-height: 34px;vertical-align: middle;margin-left: 28px;}
+
+#client .show .right {width: 50%;float: left;}
+
+#client .show .right img {width: 100%;height: auto;}
+
+
+#client .cir {height: 108px;line-height: 108px;width: 426px;margin: 0 auto;}
+
+#client .cir li {float: left;width: 20%;margin: 0 auto;text-align: center;}
+
+#client .cir li span {width: 18px;height: 18px;border-radius: 50%;background: #A0A0A0;display: inline-block;}
+
+#client .cir .cur {background: #000;}
+
+#client .clientList {height: 267px;margin-top: 54px;overflow: hidden;}
+
+#client .clientList ul {margin: 0 -4px;overflow: hidden;}
+
+#client .clientList li {float: left;width: 10%;padding: 4px 4px;box-sizing: border-box;overflow: hidden;}
+
+#client .more {width: 100%;height: 126px;line-height: 126px;text-align: center;font-size: 22px;}
+
+
+/* 公司动态 news ============================ */
+#news {margin-top: 30px; background: #F3F3F3;}
+
+#news .title {height: 134px;line-height: 134px;text-align: center;font-size: 46px;}
+
+#news .newList { margin: 0 auto;width: 1254px;height: 628px;}
+
+#news .newList img { width: 100%;height: auto;}
+
+#news .cir {height: 84px;line-height: 84px;width: 512px;margin: 0 auto;}
+
+#news .cir li {float: left;width: 16.6%;margin: 0 auto;text-align: center;}
+
+#news .cir li span {width: 18px;height: 18px;border-radius: 50%;background: #000;display: inline-block;}
+
+#news .cir .cur {background: #A0A0A0;}
+
+
+/*  额外信息 extra ========================== */
+#contact {margin-top: 30px;}
+
+#contact .top {padding-top: 63px;padding-bottom: 61px;width: 100%;background: #E8E8E8;padding-left: 19.4%;overflow: hidden;}
+
+#contact .item {float: left;width: 8.7%;}
+
+#contact .item dt {font-size: 18px;color: #000;font-weight: 600;line-height: 44px;}
+
+#contact .item dd {font-size: 16px;color: #595757;line-height: 42px;}
+
+#contact .message {float: left;margin-left: 5.8%;}
+
+#contact .message p {line-height: 40px;font-size: 18px;}
+
+#contact .message ul {width: 440px;margin: 0 -10px;overflow: hidden;margin-top: 28px}
+
+#contact .message li {width: 33.3%;float: left;;padding: 0 10px;box-sizing: border-box;overflow: hidden;text-align: center;}
+
+#contact .message li span {width: 70px;height: 28px;display: inline-block;border-radius: 20px;border: 2px solid #717987;font-size: 16px;line-height: 28px;margin-top: 8px;color: #717987}
+
+#contact .message .iconfont {font-size: 27px;}
+
+#contact .bottom { padding-top: 31px;padding-bottom: 68px;text-align: center;}
+
+#contact .bottom .line {width: 54%;height: 1px;background: #555C6A;margin-bottom: 17px;display: inline-block;}
+
+#contact .bottom p {text-align: center;font-size: 14px;line-height: 26px;}
+
+
+/* 两侧定位框 ---------- */
+
+
+.fixBox .fixBoxLeft {width: 62px;height: 156px;border: 1px solid #0093FF;border-radius: 10px;text-align: center;overflow: hidden;padding-top: 20px;box-sizing: border-box;position: fixed;top: 60%;left: 0;background: #FFFFFF;}
+
+.fixBox .fixBoxLeft .iconfont {font-size: 28px;color: #0093FF;}
+
+.fixBox .fixBoxLeft p {font-size: 18px;width: 18px;line-height: 20px;margin: 10px auto 0;color: #0093FF;}
+
+
+.fixBox .fixBoxRight {width: 114px;height: 250px;border: 1px solid #0093FF;border-radius: 10px;text-align: center;overflow: hidden;position: fixed;top: 54%;right: 0;background: #FFFFFF;}
+
+.fixBoxRight li {border-bottom: 1px solid #0093FF;width: 100%;height: 61px;line-height: 61px;font-size: 18px;color:#0093FF}
+.fixBoxRight li .iconfont {font-size: 27px;vertical-align: middle;margin-right:10px;}
+.fixBoxRight .last {border: none;}
+

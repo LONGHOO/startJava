@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>游记列表</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/js/bootstrap-4.1.1-dist/css/bootstrap.min.css">
+    <script src="/js/jquery/jquery.min.js"></script>
+    <script src="/js/bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/font/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/reset.css"/>
+    <link rel="stylesheet" href="/css/travel.css"/>
+    <script src="/js/plugins/jrender/jrender.min.js"></script>
+    <link rel="stylesheet" href="/js/plugins/dialog2/dialog.css">
+    <script src="/js/plugins/dialog2/dialog.min.js"></script>
+    <script src="/js/common.js"></script>
+    <script>
+        $(function () {
+            //默认当前页为1
+            var currentPage = 1;
+            var totalPage = 1;
+            //创建列表来包装当前页面所有获取到的数据
+            var contains = [];
+            //防止在请求未响应的时候重复提交请求，做个标记，true：表示当前请求为作响应
+            var loading = false;
+            var query = function () {
+                //如果当前正在作请求操作，不能发起新的请求
+                if (loading) {
+                    return;
+                }
+                //发送请求之前将状态设为true，不能重复发送请求
+                loading = true;
+                $.get(baseUrl + "/travels/list", {currentPage: currentPage}, function (data) {
+                    $.merge(contains, data.list);
+                    var result = {list: contains};
+                    $("#allTravels").renderValues(result, {
+                        getHref: function (item, value) {
+                            var link = $(item).attr("href");
+                            $(item).attr('href', link+'?id=' + value);
+                        }
+                    });
+                    //响应结束后允许发送新的请求
+                    loading = false;
+                    currentPage++;
+                    totalPage = data.pages;
+                })
+            }
+            //默认加载第一页的数据
+            query();
+            //添加屏幕滚动监听器
+            $(window).scroll(function () {
+                //如果当前屏幕距离屏幕底部小于50px时，发送请求
+                if ($(document).scrollTop() + $(window).height() >= $(document).height() - 50) {
+                    if (currentPage <= totalPage) {
+                        query();
+                    } else if (currentPage === (totalPage + 1)) {
+                        currentPage++;
+                        $(document).dialog({
+                            content: "已经触发到底线了"
+                        });
+                    }
+
+                }
+            })
+            //获取每月推荐游记
+            $.get(baseUrl+"/travelCommends/monthTop",function(response){
+                if(response.success){
+                    $(".carousel-item").renderValues(response.data.list[0],{
+                        getHref: function (item, value) {
+                            var link = $(item).attr("href");
+                            $(item).attr('href', link+'?id=' + value);
+                        }
+                    });
+                }
+            })
+        })
+    </script>
+</head>
+
+<body>
+
+
+<div class="search-head">
+    <div class="row nav-search">
+        <div class="col-2">
+            <a href="index.html">
+                <span><i class="fa fa-chevron-left fa-2x"></i></span>
+            </a>
+        </div>
+        <div class="col-10">
+            <div class="input-group-sm search">
+                <input class="form-control searchBtn" placeholder="搜游记">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+    <h6>每月冠军游记</h6>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="travelsCommends" class="carousel-inner">
+            <div>
+                <div class="carousel-item active">
+                    <div class="border commend">
+                        <a href="travelContent.html" render-key="id" render-fun="getHref">
+                            <img render-src="coverUrl" width="100%" height="200px">
+                            <h1 render-html="title"></h1>
+                            <small render-html="subTitle"> </small>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
+    </div>
+</div>
+
+<div class="container">
+    <h6>全部游记</h6>
+    <div id="allTravels" >
+        <div id="content" render-loop="list">
+        <div class="row detail">
+            <div class="col">
+                <a href="travelContent.html" render-key="list.id" render-fun="getHref">
+                    <h4 render-html="list.title"></h4>
+                </a>
+                <p>
+                    <a href="userProfiles.html" render-key="list.author.id" render-fun="getHref">
+                        <img class="rounded-circle head-img" render-src="list.author.headImgUrl">
+                        <span render-html="list.author.nickName"></span> </a> 在
+                    <span class="addr" render-html="list.region.name"></span>
+
+                </p>
+                <p>
+                    <i class="fa fa-eye fa-fw"></i>
+                    <span>0</span>
+                    <i class="fa fa-commenting fa-fw"></i>
+                    <span>0</span>
+                </p>
+            </div>
+            <div class="col bigimg">
+                <a href="travelContent.html" render-key="list.id" render-fun="getHref">
+                    <img render-src="list.coverUrl">
+                </a>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+package com.shiyi.springboot;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+/**
+ * @Author: 十一
+ * @Date: 2019-03-12 23:22
+ * @Descrption
+ **/
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class TestDemo {
+
+   Logger logger =  LoggerFactory.getLogger(getClass());
+
+
+
+
+    @Test
+    public void test(){
+        logger.debug("dubugger info");
+        logger.error("error info");
+    }
+
+}

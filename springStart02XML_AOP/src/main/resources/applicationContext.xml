@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <bean id="service" class="com.shiyi.service.impl.EmployeeServiceImpl"/>
+    <bean id="transManager" class="com.shiyi.tx.TransactionManager"/>
+    <bean id="exceptionLog" class="com.advice.ExceptionLogAdvice"/>
+    <bean id="aroundAdvice" class="com.advice.AroundAdvice"/>
+    <!--配置aop-->
+    <aop:config>
+        <!--定义一个切面-->
+        <aop:aspect ref="transManager">
+            <!--定义一个切点-->
+            <!--设置满足条件的连接点-->
+            <aop:pointcut id="savePointcut"
+                          expression="execution(* com.shiyi.service.impl.*Service*.*(..))"></aop:pointcut>
+            <aop:before method="begin" pointcut-ref="savePointcut"/>
+            <aop:after-throwing method="rollBack" pointcut-ref="savePointcut"/>
+            <aop:after method="commit" pointcut-ref="savePointcut"/>
+        </aop:aspect>
+        <aop:aspect ref="aroundAdvice">
+            <aop:pointcut id="aroundPointcut"
+                          expression="execution(* com.shiyi.service.impl.*Service*.*(..))"></aop:pointcut>
+            <aop:around method="showAroundAdvice" pointcut-ref="aroundPointcut"/>
+        </aop:aspect>
+    </aop:config>
+
+</beans>

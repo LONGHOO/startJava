@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.p2p.base.mapper.UserInfoMapper">
+    <resultMap id="BaseResultMap" type="cn.wolfcode.p2p.base.domain.UserInfo">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="version" jdbcType="INTEGER" property="version"/>
+        <result column="bitState" jdbcType="BIGINT" property="bitState"/>
+        <result column="realName" jdbcType="VARCHAR" property="realName"/>
+        <result column="idNumber" jdbcType="VARCHAR" property="idNumber"/>
+        <result column="phoneNumber" jdbcType="VARCHAR" property="phoneNumber"/>
+        <result column="email" jdbcType="VARCHAR" property="email"/>
+        <result column="realAuthId" property="realAuthId"/>
+        <result column="videoAuthid" property="videoAuthId"></result>
+
+        <association property="educationBackground" column="educationBackground_id"
+                     select="cn.wolfcode.p2p.base.mapper.SystemDictionaryItemMapper.selectByPrimaryKey"></association>
+
+        <association property="incomeGrade" column="incomeGrade_id"
+                     select="cn.wolfcode.p2p.base.mapper.SystemDictionaryItemMapper.selectByPrimaryKey"></association>
+
+        <association property="marriage" column="marriage_id"
+                     select="cn.wolfcode.p2p.base.mapper.SystemDictionaryItemMapper.selectByPrimaryKey"></association>
+
+        <association property="kidCount" column="kidCount_id"
+                     select="cn.wolfcode.p2p.base.mapper.SystemDictionaryItemMapper.selectByPrimaryKey"></association>
+
+        <association property="houseCondition" column="houseCondition_id"
+                     select="cn.wolfcode.p2p.base.mapper.SystemDictionaryItemMapper.selectByPrimaryKey"></association>
+
+    </resultMap>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+        delete
+        from userinfo
+        where id = #{id,jdbcType=BIGINT}
+    </delete>
+    <insert id="insert" parameterType="cn.wolfcode.p2p.base.domain.UserInfo">
+        insert into userinfo (id, version, bitState, realName,
+                              idNumber, phoneNumber, email,
+                              incomeGrade_id, marriage_id,
+                              kidCount_id, educationBackground_id, houseCondition_id)
+        values (#{id}, #{version,jdbcType=INTEGER}, #{bitState,jdbcType=BIGINT}, #{realName,jdbcType=VARCHAR},
+                #{idNumber,jdbcType=VARCHAR}, #{phoneNumber,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR},
+                #{incomeGrade.id,jdbcType=BIGINT}, #{marriage.id,jdbcType=BIGINT},
+                #{kidCount.id,jdbcType=BIGINT}, #{educationBackground.id,jdbcType=BIGINT},
+                #{houseCondition.id,jdbcType=BIGINT})
+    </insert>
+    <update id="updateByPrimaryKey" parameterType="cn.wolfcode.p2p.base.domain.UserInfo">
+        update userinfo
+        <set>
+            version = version +1,
+            bitState = #{bitState,jdbcType=BIGINT},
+            incomeGrade_id = #{incomeGrade.id,jdbcType=BIGINT},
+            marriage_id = #{marriage.id,jdbcType=BIGINT},
+            kidCount_id = #{kidCount.id,jdbcType=BIGINT},
+            <if test="idNumber != null">
+                idNumber = #{idNumber},
+            </if>
+            <if test="realName != null">
+                realName = #{realName},
+            </if>
+            videoAuthId = #{videoAuthId},
+            realAuthId = #{realAuthId},
+            educationBackground_id = #{educationBackground.id,jdbcType=BIGINT},
+            houseCondition_id = #{houseCondition.id,jdbcType=BIGINT}
+        </set>
+        where id = #{id,jdbcType=BIGINT} and version = #{version}
+    </update>
+    <update id="updateRealAuthState">
+        update userinfo
+        set realAuthId = #{realAuthId}
+        where id = #{id}
+    </update>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        select id,
+               version,
+               bitState,
+               realName,
+               idNumber,
+               phoneNumber,
+               email,
+               incomeGrade_id,
+               marriage_id,
+               kidCount_id,
+               educationBackground_id,
+               houseCondition_id,
+               realAuthId,
+               videoAuthId
+        from userinfo
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+    <select id="selectAll" resultMap="BaseResultMap">
+        select id,
+               version,
+               bitState,
+               realName,
+               idNumber,
+               phoneNumber,
+               email,
+               incomeGrade_id,
+               marriage_id,
+               kidCount_id,
+               educationBackground_id,
+               houseCondition_id,
+               realAuthId,
+               videoAuthId
+        from userinfo
+    </select>
+</mapper>

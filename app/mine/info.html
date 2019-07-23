@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>设置个人资料</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/js/bootstrap-4.1.1-dist/css/bootstrap.min.css">
+    <script src="/js/jquery/jquery.min.js"></script>
+    <script src="/js/bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/font/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/css/reset.css"/>
+    <link rel="stylesheet" href="/css/myInfo.css"/>
+    <script src="/js/plugins/jrender/jrender.min.js"></script>
+    <link rel="stylesheet" href="/js/plugins/dialog2/dialog.css"/>
+    <script src="/js/plugins/dialog2/dialog.min.js"></script>
+    <script src="/js/plugins/form/jquery.form.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/checkLogin.js"></script>
+    <script>
+        $(function () {
+
+            $(".info").renderValues(user);
+            $(".myBg").css("background-image", "url(" + user.coverImgUrl + ")");
+
+            var flag = 0;
+
+            //设置背景事件
+            $("#coverBtn").click(function () {
+                flag = 1;
+                $("#fileUpload").click();
+            })
+            //设置头像事件
+            $("#headBtn").click(function () {
+                flag = 2;
+                $("#fileUpload").click();
+            })
+            //监听文件上传标签的change状态，
+            $("#fileUpload").change(function () {
+                //如果选择了图片，那么上传
+                if ($(this).val()) {
+                    $("#uploadForm").ajaxSubmit({
+                            url: baseUrl + "/image/upload",
+                            success: function (data) {
+                                //如果上传成功
+                                if (data.status) {
+                                    //判断当前是头像上传还是背景上传
+                                    if (flag === 2) {
+                                        //更改表单中的头像url
+                                        $("input[name=headImgUrl]").val(data.url);
+                                        //更改头像地址
+                                        $("#headImg").attr("src", data.url);
+                                    } else {
+                                        //更改表单中的背景url
+                                        $("input[name=coverImgUrl]").val(data.url);
+                                        //更改背景url
+                                        $(".myBg").css("background-image", "url(" + data.url+ ")");
+                                    }
+                                } else {
+                                    $(document).dialog({
+                                        content: data.msg
+                                    });
+                                }
+                            }
+                        }
+                    )
+                }
+            })
+
+            //保存事件
+            $("#saveBtn").click(function () {
+                $("#infoForm").ajaxSubmit({
+                    url:baseUrl+"/users/"+user.id,
+                    success:function(data){
+                        sessionStorage.setItem("user",JSON.stringify(data.data));
+                        $(document).dialog({
+                            content: "保存成功"
+                        });
+                    }
+                })
+            })
+        })
+
+    </script>
+</head>
+
+<body>
+
+<div class="search-head">
+    <div class="row nav-search">
+        <div class="col">
+            <a href="javascript:window.history.go(-1);">
+                <span>取消</span>
+            </a>
+        </div>
+        <div class="col">
+            <span>设置个人资料</span>
+        </div>
+        <div class="col">
+            <a href="#" id="saveBtn">
+                <span>保存</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container info">
+    <form method="post" id="uploadForm" enctype="multipart/form-data">
+        <input type="file" name="file" id="fileUpload" style="display:none"/>
+    </form>
+    <div class="myBg">
+        <img id="headImg" render-src="headImgUrl" class="rounded-circle"/>
+        <div class="editHead" id="headBtn"><i class="fa fa-pencil-square fa-lg " aria-hidden="true"></i></div>
+        <button class="btn btn-outline-light ibtn " id="coverBtn">设置背景</button>
+    </div>
+
+    <form id="infoForm" method="post">
+        <input type="hidden" name="_method" value="put"/>
+        <input type="hidden" name="email" render-value="email"/>
+        <input type="hidden" name="coverImgUrl" render-value="coverImgUrl"/>
+        <input type="hidden" name="headImgUrl" render-value="headImgUrl"/>
+        <div class="form-group">
+            <label>昵称</label><input type="text" name="nickName" class="form-control" render-value="nickName">
+        </div>
+        <div class="form-group">
+            <label>性别</label>
+            <select class="form-control" name="gender" render-value="gender">
+                <option value="-1">保密</option>
+                <option value="1">男</option>
+                <option value="0">女</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>地区</label><input type="text" name="place" class="form-control" render-value="place">
+        </div>
+        <div class="form-group">
+            <label>签名</label><textarea name="sign" class="form-control" rows="5" render-html="sign"></textarea>
+        </div>
+    </form>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shiyi.mybatis.mapper.EmployeeMapper">
+
+<select id="queryByMinSalary" resultType="com.shiyi.mybatis.domain.Employee">
+  select * from employee
+  <where>
+    <if test="salary != null">
+        and salary > #{salary}
+    </if>
+
+  </where>
+</select>
+
+    <select id="qeuryByMinSalaryAndMaxSalary" resultType="com.shiyi.mybatis.domain.Employee">
+        select * from employee
+        <where>
+            <if test="minSalary != null">
+                salary > #{minSalary}
+            </if>
+            <if test="maxSalary != null">
+                and salary &lt; #{maxSalary}
+            </if>
+        </where>
+    </select>
+
+    <select id="queryByDeptId" resultType="com.shiyi.mybatis.domain.Employee">
+        select * from employee
+        <where>
+            <choose>
+                <when test="deptId != null">
+                    deptId = #{deptId}
+                </when>
+                <otherwise>
+                    deptId is not null
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+</mapper>

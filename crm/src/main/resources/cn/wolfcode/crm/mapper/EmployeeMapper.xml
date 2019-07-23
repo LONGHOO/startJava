@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.crm.mapper.EmployeeMapper">
+    <resultMap id="BaseResultMap" type="cn.wolfcode.crm.domain.Employee">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="password" property="password"/>
+        <result column="email" property="email"/>
+        <result column="age" property="age"/>
+        <result column="admin" property="admin"/>
+        <!-- 封装部门对象 -->
+        <association property="dept" javaType="Department" columnPrefix="d_">
+            <id column="id" property="id"/>
+            <result column="name" property="name"/>
+        </association>
+        <!-- 封装角色对象 -->
+        <collection property="roles" column="id"
+                    select="cn.wolfcode.crm.mapper.RoleMapper.selectByEmployeeId"/>
+    </resultMap>
+    <delete id="deleteByPrimaryKey">
+        delete
+        from employee
+        where id = #{id}
+    </delete>
+    <delete id="deleteRelation">
+        delete
+        from employee_role
+        where employee_id = #{employeeId}
+    </delete>
+    <delete id="batchDelete">
+        delete from employee
+        where id in
+        <foreach collection="ids" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into employee (name, password, email, age, admin, dept_id)
+        values (#{name}, #{password}, #{email}, #{age}, #{admin}, #{dept.id})
+    </insert>
+    <insert id="insertRelation">
+        insert into employee_role (employee_id, role_id)
+        values (#{employeeId}, #{roleId})
+    </insert>
+    <update id="updateByPrimaryKey">
+        update employee
+        set name    = #{name},
+            email   = #{email},
+            age     = #{age},
+            admin   = #{admin},
+            dept_id = #{dept.id}
+        where id = #{id}
+    </update>
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap">
+        <include refid="base_column"/>
+        <include refid="base_table"/>
+        where e.id = #{id}
+    </select>
+    <select id="selectForList" resultMap="BaseResultMap">
+        <include refid="base_column"/>
+        <include refid="base_table"/>
+        <include refid="base_where"/>
+    </select>
+
+    <select id="selectForCount" resultType="int">
+        select count(0)
+        <include refid="base_table"/>
+        <include refid="base_where"/>
+    </select>
+    <select id="selectByUsernameAndPassword" resultType="cn.wolfcode.crm.domain.Employee">
+        select id,name, password, email, age, admin
+        from employee where name = #{username} and password = #{password}
+    </select>
+    <select id="queryEmpByUserName" resultType="cn.wolfcode.crm.domain.Employee">
+        select id,name, password, email, age, admin from employee where name = #{username}
+    </select>
+    <select id="chenckName" resultType="java.lang.Integer">
+        select count(*) from employee where name = #{username}
+    </select>
+    <select id="querySnByPrimaryKey" resultType="java.lang.String">
+        select r.sn from role r
+        left join employee_role er on er.role_id = r.id
+        where er.employee_id = #{id}
+
+    </select>
+    <select id="selectAll" resultType="cn.wolfcode.crm.domain.Employee">
+        select id,name,email,age from employee
+    </select>
+    <select id="queryEmpByRoles" resultType="cn.wolfcode.crm.domain.Employee">
+        select DISTINCT e.NAME,
+	e.id from employee e
+        left join employee_role er on er.employee_id = e.id
+        left join role r on r.id = er.role_id
+        where r.sn in (#{market},#{market_manager});
+    </select>
+
+    <sql id="base_column">
+        select e.id,
+               e.name,
+               e.email,
+               e.age,
+               e.admin,
+               d.id   d_id,
+               d.name d_name
+    </sql>
+    <sql id="base_table">
+        from
+          employee e
+        left join
+          department d
+        on
+          e.dept_id = d.id
+    </sql>
+    <sql id="base_where">
+        <where>
+            <if test="keyword != null">
+                and (e.name like concat('%', #{keyword}, '%') or
+                e.email like concat('%', #{keyword}, '%'))
+            </if>
+            <if test="deptId > 0">
+                and e.dept_id = #{deptId}
+            </if>
+        </where>
+    </sql>
+</mapper>

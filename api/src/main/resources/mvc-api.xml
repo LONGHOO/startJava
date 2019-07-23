@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 配置 MVC 注解解析器 -->
+    <mvc:annotation-driven/>
+    <mvc:default-servlet-handler/>
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="#{1024 * 1024 * 10}"/>
+    </bean>
+    <import resource="classpath:applicationContext.xml"/>
+    <!--mvc.xml spring mvc 4.2以上版本才有-->
+    <!--
+            allowed-origins ：  授权可以访问的客户端域名
+            allowed-methods ：  表明服务器支持的请求的方法
+            allowed-headers ：  表明服务器支持的头信息字段
+            allow-credentials:  允许客户端携带跨域cookie，此时origin值不能为“*”
+            max-age ：          授权的有效期时间
+        -->
+    <mvc:cors>
+        <mvc:mapping path="/**"
+                     allowed-origins="http://localhost:8099"
+                     allowed-methods="GET, POST, PUT, DELETE, OPTIONS"
+                     allowed-headers="Content-Type,Origin,Accept,Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                     allow-credentials="true"
+                     max-age="180" />
+    </mvc:cors>
+
+</beans>

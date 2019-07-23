@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>我是段落</p >
+<p>我是段落</p >
+<p>我是段落</p >
+
+<h3 class="test">我是标题1</h3>
+<h3 class="test">我是标题2</h3>
+<h3 class="test">我是标题3</h3>
+
+
+<script>
+    //封装获取元素的方法
+    function getElementsByTagName(tagName) {
+        //这里为什么一定要有return，
+        document.getElementsByTagName(tagName)
+
+    }
+    //我把你的函数拆开写
+    var result = getElementsByTagName('p');
+    //这个时候的result为undefined
+    console.log(result);
+    </script>
+</body>
+</html>

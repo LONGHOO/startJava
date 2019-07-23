@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>找攻略</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/js/bootstrap-4.1.1-dist/css/bootstrap.min.css">
+    <script src="/js/jquery/jquery.min.js"></script>
+    <script src="/js/bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/font/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/css/reset.css"/>
+    <link rel="stylesheet" href="/css/myStrategyComment.css"/>
+    <script src="/js/plugins/jrender/jrender.min.js"></script>
+    <link rel="stylesheet" href="/js/plugins/dialog2/dialog.css"/>
+    <script src="/js/plugins/dialog2/dialog.min.js"></script>
+    <script src="/js/plugins/form/jquery.form.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/pages/addComment.js"></script>
+</head>
+
+<body>
+<form  method="post" id="uploadForm" style="display: none;">
+    <input type="file" name="file" id="uploadFile"/>
+</form>
+<div class="search-head">
+    <div class="row nav-search">
+        <div class="col">
+            <a href="javascript:window.history.go(-1)">
+                <span><i class="fa fa-chevron-left"></i></span>
+            </a>
+
+        </div>
+        <div class="col">
+            <span>点评</span>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>
+
+<div class="comment">
+    <div class="container star">
+        <p>你对该旅游地的评价</p>
+
+    </div>
+    <hr/>
+    <div class="container tag">
+        <p>请为该旅游地选择合适的标签（大家都在评）</p>
+        <div class="btn-group-toggle" data-toggle="buttons" id="tags">
+
+        </div>
+
+        <p>添加你自己的标签</p>
+        <input name="myTags" class="form-control" placeholder="请使用空格隔开标签，每个标签不超8个字"/>
+
+        <p>更多评价内容</p>
+        <textarea name="content" id="myComment" class="form-control" rows="5" placeholder="请填写你对该旅游地的评价"></textarea>
+    </div>
+    <div class="container imgs ">
+        <p>上传图片</p>
+
+        <div class="row">
+            <div class="col-3 rect">
+                <span>上传</span>
+            </div>
+            <div class="col-3 rect">
+                <span>上传</span>
+            </div>
+            <div class="col-3 rect">
+                <span>上传</span>
+            </div>
+            <div class="col-3 rect">
+                <span>上传</span>
+            </div>
+            <div class="col-3 rect">
+                <span>上传</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="operation">
+    <button class="btn" onclick="window.history.go(-1)">放弃评价</button>
+    <button class="btn" id="submitBtn">提交评价</button>
+</div>
+
+
+
+</body>
+
+
+</html>

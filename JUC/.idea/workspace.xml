@@ -1,0 +1,1530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af4519b1-69f5-43a0-9e2a-f10a1b5a2690" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/JUC/AB/ABALERT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/CAS/TestCAS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/CAS/TestCompareAndSwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/LIST/TestCopyOnWriteArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/callable/TestCallAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/countDownLatch/CountDownLatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/lock/LockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/moniter/ThreadMoniter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/productAndCustomerModel/ProductCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/productAndCustomerModel/lock/ProductCustomerForLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/singleton/DCLAndVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/volatileDemo/TestVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/cn/wolfcode/trip/admin/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/resources/mvc-admin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/cn/wolfcode/trip/api/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/shiyi/consumer/_01receiver/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/shiyi/consumer/_02receiver/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/shiyi/consumer/_03worker/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/shiyi/consumer/_03worker/Worker02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/shiyi/consumer/_03worker/Worker03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/shiyi/consumer/_04worker/ReceiveLogs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/shiyi/consumer/_04worker/ReceiveLogs02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/shiyi/consumer/_04worker/ReceiveLogs03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/shiyi/consumer/_05worker/QueueListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/shiyi/consumer/_06worker/QueueListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/shiyi/consumer/_06worker/QueueListener01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/static/123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/test/java/cn/wolfcode/demo/Decode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/test/java/cn/wolfcode/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/test/java/cn/wolfcode/demo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/test/java/cn/wolfcode/demo/thread/MyCallAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/test/java/cn/wolfcode/demo/thread/MyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo001/src/main/java/com/shiyi/demo001/Conponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo001/src/main/java/com/shiyi/demo001/config/MessageConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo001/src/main/java/com/shiyi/demo001/contorller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo001/src/main/java/com/shiyi/demo001/domain/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo001/src/main/resources/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/domain/ISave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/domain/Person1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/domain/ProxyPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/domain/TestMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/factory/SalesFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/sale/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/sale/PriceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/sale/Sales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/sale/SalesCEO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/test/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/com/shiyi/test/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dumin/Funct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dumin/作业-14-需求： 控制输入年龄的文本框，使其只能输入数字和删除输入的数字 。.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../empty/myfirst-spring-boot-autoconfiguration/src/main/java/cn/wolfcode/starter/HelloConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../empty/myfirst-spring-boot-autoconfiguration/src/main/java/cn/wolfcode/starter/HelloProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../empty/myfirst-spring-boot-autoconfiguration/src/main/java/cn/wolfcode/starter/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../empty/myfirst-spring-boot-autoconfiguration/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../empty/myfirst-spring-boot-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/ProperticesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/cglib/CglibDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/cglib/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/juc/TestAtomic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/juc/TestVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/junit/JunitTestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/nio/NIODemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/regex/RegexDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/com/longhoo/sort/BobbSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/lambda/AbastractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/lambda/InstatnceClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/lambda/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/thread/demo/EnergySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/thread/demo/EnergySystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/thread/demo/EnergyTransferTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/thread/demo/threaddemo/EnergySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/thread/demo/threaddemo/EnergyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/java/longhoo/thread/demo/threaddemo/EnergyTransferTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/main/resources/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasics/src/test/java/TestBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/java/com/shiyi/mybatis/domain/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/java/com/shiyi/mybatis/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/java/com/shiyi/mybatis/mapper/DepartMentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/java/com/shiyi/mybatis/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/com/shiyi/mybatis/mapper/departmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/com/shiyi/mybatis/mapper/employeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manyToOne/src/test/java/com/shiyi/test/TestManyToOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/java/com/shiyi/mybatis/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/java/com/shiyi/mybatis/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/resources/com/shiyi/mybatis/mapper/employeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWordDay01third/src/test/java/com/shiyi/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/java/com/shiyi/mybatis/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/java/com/shiyi/mybatis/mapper/PeopleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/java/com/shiyi/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/com/shiyi/mybatis/mapper/peopleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/com/shiyi/mybatis/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01/src/test/java/com/shiyi/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/java/com/shiyi/mybatis/domain/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/java/com/shiyi/mybatis/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/java/com/shiyi/mybatis/mapper/DepartMentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/java/com/shiyi/mybatis/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/com/shiyi/mybatis/mapper/departmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/com/shiyi/mybatis/mapper/employeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Forth/src/test/java/com/shiyi/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/java/com/shiyi/mybatis/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/java/com/shiyi/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/resources/com/shiyi/mybatis/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay01Seconde/src/test/java/com/shiyi/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/domain/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/domain/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/domain/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/java/com/shiyi/mybatis/mapper/TeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/com/shiyi/mybatis/mapper/studentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/com/shiyi/mybatis/mapper/teacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/test/java/ManyToManyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisHomeWorkDay02first/src/test/java/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../order-server/src/main/java/cn/wolfcode/cloud/orderserver/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../order-server/src/main/java/cn/wolfcode/cloud/orderserver/controller/Redis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../order-server/src/main/java/cn/wolfcode/cloud/orderserver/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../order-server/src/main/java/cn/wolfcode/cloud/orderserver/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/annotation/LoginRequird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/domain/BaseAuthDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/domain/BaseDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/domain/IpLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/domain/LoginInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/domain/RealAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/domain/SystemDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/domain/SystemDictionaryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/domain/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/domain/VideoAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/exception/DisplayException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/listener/MyContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/listener/MyLister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/listener/RequestListerner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/mapper/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/mapper/IpLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/mapper/IpLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/mapper/LoginInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/mapper/LoginInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/mapper/SystemDictionaryItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/mapper/SystemDictionaryItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/mapper/SystemDictionaryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/mapper/SystemDictionaryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/mapper/UserInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/query/BidRequestQueryObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/query/IpLogQueryObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/query/QueryObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/query/RealAuthQueryObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/query/SystemDictionaryQueryObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/query/VideoAuthQueryObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/IIpLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/ILoginInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/IOrderTimeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/IRealAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/ISystemDictionaryItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/ISystemDictionaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/IUserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/IVerifyCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/IVideoAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/impl/IIpLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/impl/LoginInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/impl/OrderTimeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/impl/RealAuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/impl/SystemDictionayItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/impl/SystemDictionayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/impl/VerifyCodeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/service/impl/VideoAuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/util/AjaxResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/util/AssertUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/util/BitStateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/util/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/util/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/util/MaskUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/util/UserContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/base/vo/VerifyCodeVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/domain/AccountFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/listenner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/query/BidRequestQueryObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/IAccountFlowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/IBankInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/IBidRequestAuditHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/IBidRequsetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/IBidService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/IExpAccountFlowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/IExpAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/IPaymentScheduleDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/IPaymentScheduleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/IRechargeOfflineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/ISystemAccountFlowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/ISystemAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/impl/AccountFlowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/impl/BankInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/impl/BidRequestImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/impl/BidServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/impl/BidrequestAuditHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/impl/ExpAccountFlowServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/impl/ExpAccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/impl/PaymentScheduleDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/impl/PaymentScheduleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/impl/RechargeOfflineServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/impl/SystemAccountFlowImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/service/impl/SystemAccountImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/util/CalculatetUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/java/cn/wolfcode/p2p/bussniss/util/DecimalFormatUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/main/resources/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/core/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/java/cn/wolfcode/p2p/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/java/cn/wolfcode/p2p/base/mgrsite/controller/BidRequestAuditHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/java/cn/wolfcode/p2p/base/mgrsite/controller/BorrowInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/java/cn/wolfcode/p2p/base/mgrsite/controller/ComplanBankController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/java/cn/wolfcode/p2p/base/mgrsite/controller/ExpBidRequestPublish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/java/cn/wolfcode/p2p/base/mgrsite/controller/IpLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/java/cn/wolfcode/p2p/base/mgrsite/controller/LoginInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/java/cn/wolfcode/p2p/base/mgrsite/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/java/cn/wolfcode/p2p/base/mgrsite/controller/RealAuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/java/cn/wolfcode/p2p/base/mgrsite/controller/RechargeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/java/cn/wolfcode/p2p/base/mgrsite/controller/SystemDictionaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/java/cn/wolfcode/p2p/base/mgrsite/controller/VideoAuditOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/java/cn/wolfcode/p2p/base/mgrsite/job/BidRequestScheduledJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/java/cn/wolfcode/p2p/base/mgrsite/listener/ContextListerner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/css/bank.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/css/core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/bank_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/banner01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/banner02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/baozhan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/dtg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/feature01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/feature02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/feature03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/ku.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/logo02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/person_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/phone2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/sequare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/shiming.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/shouji.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/sina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/social-icons-set.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/tecent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/txwb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/upload_source_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/upload_source_2_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/wx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/wxsm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/xlwb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/images/youxiang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/开发包/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/开发包/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/开发包/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/开发包/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/开发包/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/开发包/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/开发包/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/开发包/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/开发包/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/开发包/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/My97DatePicker/开发包/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/bank.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/bootstrap-3.3.2-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/bootstrap-3.3.2-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/bootstrap-3.3.2-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/bootstrap-3.3.2-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/bootstrap-3.3.2-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/bootstrap-3.3.2-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/bootstrap-3.3.2-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/bootstrap-3.3.2-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/bootstrap-3.3.2-dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/customer-components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/jquery.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/jquery/jquery-2.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/jquery/jquery-2.1.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/metisMenu/metisMenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/metisMenu/metisMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/bootstrap3-typeahead.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/css/bootstrap-datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.ee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.rs-latin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.rs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.sw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.ua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/minify.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v2/jquery/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/jquery/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/flipcountdown.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/img/am-pm-1.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/img/digit-lg-dark.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/img/digit-lg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/img/digit-lg.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/img/digit-md.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/img/digit-sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/img/digit-xs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/jquery.flipcountdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/jquery.flipcountdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/screen/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/flipcountdown/screen/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/ajaxSubmit-intergration-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/captcha.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/fonts/Anorexia.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/image_req.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/images/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/images/button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/images/image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/newsession.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/process.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/rand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/css/chili.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/css/cmxform.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/css/cmxformTemplate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/css/core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/css/screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/custom-messages-data-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/custom-methods-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/dynamic-totals.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/errorcontainer-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/file_input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/form.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/images/checked.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/images/cmxform-divider.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/images/cmxform-fieldset.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/images/unchecked.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/jquerymobile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/js/chili-1.7.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/login/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/login/images/header1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/login/images/page.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/login/images/required_star.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/login/screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/emails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/emails.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/ie6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/backRequiredGray.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/back_green-fade.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/back_nav_blue.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/button-submit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/left-nav-callout-long.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/login-sprite.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/logo_marketo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/sf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/step1-24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/step2-24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/step3-24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/tab-sprite.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/tab_green.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/toggle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/warning.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/jquery.maskedinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/mktSignup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/step2.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/milk/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/milk/emails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/milk/emails.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/milk/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/milk/left_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/milk/milk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/milk/milk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/milk/right_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/milk/users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/milk/users.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/multipart/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/multipart/js/jquery.maskedinput-1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/multipart/js/ui.accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/multipart/js/ui.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/multipart/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/radio-checkbox-select-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/tabs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/themerollered.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/tinymce/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/tinymce/themes/simple/editor_template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/tinymce/themes/simple/img/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/tinymce/themes/simple/langs/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/tinymce/themes/simple/skins/default/ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/demo/tinymce/tiny_mce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/lib/jquery-1.6.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/lib/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/lib/jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/lib/jquery-1.9.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/lib/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/lib/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/lib/jquery.mockjax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery-validation/localization/messages_zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/jquery.twbsPagination.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/uploadify/jquery.uploadify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/uploadify/jquery.uploadify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/uploadify/uploadify-cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/js/plugins/uploadify/uploadify.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/bidrequest/audit1.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/bidrequest/audit2.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/bidrequest/borrow_info.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/bidrequest/publish_audit.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/common/footer-tpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/common/head-tpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/common/header.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/common/leftmenu-tpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/common/links-tpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/common/loadSystemDictionary-macro.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/common/menu.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/common/navbar-tpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/common/top.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/exp_borrow_info.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/expbidrequest/borrow_info.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/expbidrequest/expbidrequestlist.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/expbidrequest/expbidrequestpublish.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/ipLog/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/ipLog/list_detail.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/main.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/moneywithdraw/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/platformbankinfo/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/realAuth/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/rechargeoffline/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/returnmoney_list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/systemdic/systemDictionaryItem_list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/systemdic/systemDictionary_list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/mgrsite/src/main/resources/templates/videoAuth/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/java/cn/wolfcode/p2p/ApplicationWebSite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/java/cn/wolfcode/p2p/controller/BasicInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/java/cn/wolfcode/p2p/controller/BorrowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/java/cn/wolfcode/p2p/controller/BorrowInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/java/cn/wolfcode/p2p/controller/InvestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/java/cn/wolfcode/p2p/controller/IpLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/java/cn/wolfcode/p2p/controller/LoginInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/java/cn/wolfcode/p2p/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/java/cn/wolfcode/p2p/controller/PersonalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/java/cn/wolfcode/p2p/controller/RealAuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/java/cn/wolfcode/p2p/controller/RechargeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/java/cn/wolfcode/p2p/controller/UploadImgController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/java/cn/wolfcode/p2p/controller/VideoAuditOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/borrowIndex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/css/account.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/css/bank.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/css/core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/bank_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/banner01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/banner02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/baozhan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/dtg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/feature01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/feature02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/feature03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/juhua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/ms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/person_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/phone2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/sequare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/shiming.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/shouji.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/sina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/social-icons-set.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/tecent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/txwb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/upload_source_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/upload_source_2_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/wx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/wxsm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/xlwb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/images/youxiang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/开发包/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/开发包/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/开发包/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/开发包/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/开发包/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/开发包/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/开发包/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/开发包/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/开发包/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/开发包/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/My97DatePicker/开发包/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/bank.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/bootstrap-3.3.2-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/bootstrap-3.3.2-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/bootstrap-3.3.2-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/bootstrap-3.3.2-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/bootstrap-3.3.2-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/bootstrap-3.3.2-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/bootstrap-3.3.2-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/bootstrap-3.3.2-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/bootstrap-3.3.2-dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/jquery.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/jquery/jquery-2.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/jquery/jquery-2.1.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins-override.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/css/bootstrap-datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/js/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v2/jquery/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/datetimepicker/sample in bootstrap v3/jquery/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/flipcountdown.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/img/am-pm-1.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/img/digit-lg-dark.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/img/digit-lg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/img/digit-lg.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/img/digit-md.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/img/digit-sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/img/digit-xs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/jquery.flipcountdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/jquery.flipcountdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/screen/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/flipcountdown/screen/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/ajaxSubmit-intergration-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/captcha.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/fonts/Anorexia.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/image_req.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/images/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/images/button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/images/image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/newsession.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/process.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/rand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/captcha/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/css/chili.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/css/cmxform.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/css/cmxformTemplate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/css/core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/css/screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/custom-messages-data-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/custom-methods-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/dynamic-totals.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/errorcontainer-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/file_input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/form.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/images/checked.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/images/cmxform-divider.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/images/cmxform-fieldset.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/images/unchecked.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/jquerymobile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/js/chili-1.7.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/login/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/login/images/header1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/login/images/page.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/login/images/required_star.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/login/screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/emails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/emails.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/ie6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/backRequiredGray.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/back_green-fade.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/back_nav_blue.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/button-submit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/left-nav-callout-long.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/login-sprite.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/logo_marketo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/sf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/step1-24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/step2-24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/step3-24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/tab-sprite.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/tab_green.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/toggle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/images/warning.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/jquery.maskedinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/mktSignup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/step2.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/marketo/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/milk/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/milk/emails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/milk/emails.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/milk/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/milk/left_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/milk/milk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/milk/milk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/milk/right_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/milk/users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/milk/users.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/multipart/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/multipart/js/jquery.maskedinput-1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/multipart/js/ui.accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/multipart/js/ui.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/multipart/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/radio-checkbox-select-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/tabs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/themerollered.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/tinymce/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/tinymce/themes/simple/editor_template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/tinymce/themes/simple/img/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/tinymce/themes/simple/langs/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/tinymce/themes/simple/skins/default/ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/demo/tinymce/tiny_mce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/lib/jquery-1.6.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/lib/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/lib/jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/lib/jquery-1.9.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/lib/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/lib/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/lib/jquery.mockjax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery-validation/localization/messages_zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/jquery.twbsPagination.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/uploadifive/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/uploadifive/jquery.uploadifive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/uploadifive/uploadifive-cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/js/plugins/uploadifive/uploadifive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/static/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/bankInfo.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/bankInfo_result.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/basicInfo.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/borrow.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/borrow_apply.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/borrow_apply_result.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/borrow_info.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/checkmail_result.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/common/footer-tpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/common/head-tpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/common/leftmenu-tpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/common/links-tpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/common/loadSystemDictionary-macro.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/common/navbar-tpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/exp_borrow_info.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/invest.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/invest_list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/iplog_list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/main.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/moneyWithdraw_apply.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/personal.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/realAuth.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/realAuth_result.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/recharge.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/returnmoney_list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/videoOrder.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p2p/website/src/main/resources/templates/videoOrder_result.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/cn/wolfcode/cloud/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/cn/wolfcode/cloud/feign/ProductFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/cn/wolfcode/cloud/feign/ProductFeignHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-server/src/main/java/cn/wolfcode/cloud/porductserver/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-server/src/main/java/cn/wolfcode/cloud/porductserver/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-server/src/main/java/cn/wolfcode/cloud/porductserver/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/shiyi/product/_01product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/shiyi/product/_02product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/shiyi/product/_03product/NewTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/shiyi/product/_04product/EmitLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/shiyi/product/_05product/QueueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/src/main/java/com/shiyi/product/_06pubProduct/Pubproduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisstart/src/main/java/com/shiyi/redisstart/Redis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisstart/src/main/java/com/shiyi/redisstart/RedisStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restful/src/main/java/com/shiyi/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restful/src/main/resources/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restful/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restful/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../restful/src/test/java/TestBreake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/advice/AroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/advice/ExceptionLogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/advice/MethodInvokeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/shiyi/handler/TransactionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/shiyi/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02DynamicProxyByJDK/src/test/java/com/shiyi/JDKDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/java/com/shiyi/service/impl/EmployeeServcieImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/java/com/shiyi/service/impl/EmployeeServiceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02StaticProxy/src/test/java/com/shiyi/StaticProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/advice/AroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/advice/ExceptionLogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/advice/MethodInvokeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/shiyi/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStart02XML_AOP/src/test/java/com/shiyi/XMLAOPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/src/main/java/com/shiyi/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStartRegister/src/test/java/com/shiyi/RegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/di/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/di/EmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/di/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Cat4FactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/CatInstanceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/CatStaticFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/MyDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/ioc/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/proxy/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/proxy/ServiceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/proxy/ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/proxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/CatCreateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/CatStaticFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/StudentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/java/com/shiyi/spring/TeacherExistConditon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/DITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/TestProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/druid/DruidTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/ioc/CreateBeanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/ioc/InitAndDestoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/ioc/ScopeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springStarto1/src/test/java/com/shiyi/persontest/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/shiyi/Inter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/shiyi/springboot/com/shiyi/con.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/test/java/com/shiyi/springboot/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootStart1/src/main/java/cn/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootStart1/src/main/java/cn/wolfcode/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootStart1/src/main/java/cn/wolfcode/javaconfig/AnnotationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootStart1/src/main/java/cn/wolfcode/javaconfig/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootStart1/src/main/java/cn/wolfcode/javaconfig/AppleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootStart1/src/main/java/cn/wolfcode/javaconfig/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootStart1/src/main/java/cn/wolfcode/javaconfig/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootStart1/src/main/java/cn/wolfcode/javaconfig/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootStart1/src/main/java/cn/wolfcode/javaconfig/FruitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootStart1/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootStart1/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootStart1/src/main/resources/templates/hello.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootStart1/src/test/java/AnnotaionConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootStart1/src/test/java/JavaConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/java/com/shiyi/springbootmybatisdemo/start/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/java/com/shiyi/springbootmybatisdemo/start/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/java/com/shiyi/springbootmybatisdemo/start/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/java/com/shiyi/springbootmybatisdemo/start/mybatis/MybatisStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/resources/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootmybatisdemo/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart/src/main/java/com/shiyi/springbootstart/com/shiyi/SetUniqueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart02/src/main/java/cn/wolfcode/springbootstart02/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart02/src/main/java/cn/wolfcode/springbootstart02/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart02/src/main/java/cn/wolfcode/springbootstart02/controllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart02/src/main/java/cn/wolfcode/springbootstart02/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart02/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart02/src/main/resources/static/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart02/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart02/src/main/resources/templates/common1/error.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart02/src/main/resources/templates/common1/footer.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart02/src/main/resources/templates/common1/link.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart02/src/main/resources/templates/common1/menu.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart02/src/main/resources/templates/common1/navbar.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart02/src/main/resources/templates/common1/nopermission.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart02/src/main/resources/templates/common1/page.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart02/src/main/resources/templates/common1/page_plus.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart02/src/main/resources/templates/error.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootstart02/src/main/resources/templates/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/zuul/src/main/java/cn/wolfcode/cloud/zuul/filter/AuthZuulFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/DateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/DateControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/RequestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/ResponseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/java/com/shiyi/controller/UserQueryObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/resources/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/redirect.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/static/json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/static/static.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvcStart/src/main/webapp/upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/java/com/shiyi/mp/beans/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/java/com/shiyi/mp/beans/StudentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/java/com/shiyi/mp/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart/src/test/java/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/advice/AroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/advice/ExceptionLogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/advice/MethodInvokeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/shiyi/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoAOP/src/test/java/com/shiyi/AnnoAOPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/java/com/shiyi/dao/IStudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/java/com/shiyi/dao/impl/StudentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/java/com/shiyi/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/java/com/shiyi/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02AnnoRegister/src/test/java/com/shiyi/RegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/advice/AroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/advice/ExceptionLogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/advice/MethodInvokeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/shiyi/handler/TransactionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/shiyi/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/shiyi/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/java/com/shiyi/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstart02DynamicByCGLib/src/test/java/com/shiyi/DynamicByCglib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/query/QueryObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/service/IDepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/service/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/service/impl/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/web/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/web/controller/ExcelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/web/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/web/interceptor/LoginInterceptoer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/shiyi/web/viewBuild/ExcelViewBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/thread/Express.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/thread/PostMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/java/com/thread/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/resources/excelConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/resources/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndInterceptor2/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/java/com/shiyi/ssm/service/IDepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/java/com/shiyi/ssm/service/impl/DepartmentImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/java/com/shiyi/ssm/web/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/java/com/shiyi/ssm/web/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/resources/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/webapp/WEB-INF/views/input.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmAndIntroceptor/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/java/com/shiyi/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/java/com/shiyi/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/java/com/shiyi/service/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/java/com/shiyi/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/applicationAnno.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/com/shiyi/mapper/accountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/test/java/com/shiyi/TestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/test/java/com/shiyi/TestTransactionByAnno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssmDemo/src/test/java/com/shiyi/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testspringstarter/src/main/java/cn/wolfcode/test/testspringstarter/TestspringstarterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testspringstarter/src/main/java/cn/wolfcode/test/testspringstarter/config/AppleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testspringstarter/src/main/java/cn/wolfcode/test/testspringstarter/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testspringstarter/src/main/java/cn/wolfcode/test/testspringstarter/domain/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/imooc/netty/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/imooc/netty/MyWebSocketChannelHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/imooc/netty/MyWebSocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/imooc/netty/NettyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/shiyi/server/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/shiyi/server/NettyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/shiyi/server/handler/MyWebSocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/shiyi/server/handler/MysocketChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/longhoo/test.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JUC/singleton/DCLAndVolatile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>`</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/JUC/moniter/ThreadMoniter.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/JUC/CAS/TestCompareAndSwap.java" />
+        <option value="$PROJECT_DIR$/src/JUC/CAS/CompareAndSwap.java" />
+        <option value="$PROJECT_DIR$/src/JUC/LIST/CopyOnWriteArrayList.java" />
+        <option value="$PROJECT_DIR$/src/JUC/LIST/TestCopyOnWriteArrayList.java" />
+        <option value="$PROJECT_DIR$/src/JUC/CountDownLatch.java" />
+        <option value="$PROJECT_DIR$/src/JUC/countDownLatch/CountDownLatch.java" />
+        <option value="$PROJECT_DIR$/src/JUC/countDownLatch/CountDownLatchTest.java" />
+        <option value="$PROJECT_DIR$/src/JUC/callable/TestCallAble.java" />
+        <option value="$PROJECT_DIR$/src/JUC/lock/Lock.java" />
+        <option value="$PROJECT_DIR$/src/JUC/lock/LockTest.java" />
+        <option value="$PROJECT_DIR$/src/JUC/productAndCustomerModel/ProductCustomer.java" />
+        <option value="$PROJECT_DIR$/src/JUC/productAndCustomerModel/ProductCustomerForLock.java" />
+        <option value="$PROJECT_DIR$/src/JUC/productAndCustomerModel/lock/ProductCustomerForLock.java" />
+        <option value="$PROJECT_DIR$/src/JUC/AB/ABALERT.java" />
+        <option value="$PROJECT_DIR$/src/JUC/moniter/ThreadMoniter.java" />
+        <option value="$PROJECT_DIR$/src/JUC/volatileDemo/TestVolatile.java" />
+        <option value="$PROJECT_DIR$/src/JUC/singleton/DCLAndVolatile.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+              <item name="volatileDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563377824377" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/JUC/productAndCustomerModel" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DCLAndVolatile">
+    <configuration name="ABALERT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.AB.ABALERT" />
+      <module name="JUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUC.AB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DCLAndVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.singleton.DCLAndVolatile" />
+      <module name="JUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUC.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductCustomerForLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.productAndCustomerModel.lock.ProductCustomerForLock" />
+      <module name="JUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUC.productAndCustomerModel.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.volatileDemo.TestVolatile" />
+      <module name="JUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUC.volatileDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadMoniter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.moniter.ThreadMoniter" />
+      <module name="JUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUC.moniter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DCLAndVolatile" />
+        <item itemvalue="Application.TestVolatile" />
+        <item itemvalue="Application.ThreadMoniter" />
+        <item itemvalue="Application.ABALERT" />
+        <item itemvalue="Application.ProductCustomerForLock" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af4519b1-69f5-43a0-9e2a-f10a1b5a2690" name="Default Changelist" comment="" />
+      <created>1562936256066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562936256066</updated>
+      <workItem from="1562936258958" duration="1281000" />
+      <workItem from="1563023907012" duration="1009000" />
+      <workItem from="1563093512886" duration="2584000" />
+      <workItem from="1563112324447" duration="2389000" />
+      <workItem from="1563199041424" duration="1726000" />
+      <workItem from="1563366302439" duration="1896000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10885000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32961586" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32961586" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="JRebel Executor" order="13" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="PlantUML" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/JUC/CAS.java" />
+    <entry file="file://$PROJECT_DIR$/src/JUC/CAS/TestCAS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/CAS/TestCompareAndSwap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/LIST/TestCopyOnWriteArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/countDownLatch/CountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/callable/TestCallAble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/lock/LockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/productAndCustomerModel/ProductCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/productAndCustomerModel/lock/ProductCustomerForLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/AB/ABALERT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/moniter/ThreadMoniter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/volatileDemo/TestVolatile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JUC/singleton/DCLAndVolatile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

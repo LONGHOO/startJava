@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.p2p.bussniss.mapper.BidRequestMapper">
+  <resultMap id="BaseResultMap" type="cn.wolfcode.p2p.bussniss.domain.BidRequest">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="version" jdbcType="INTEGER" property="version" />
+    <result column="returnType" jdbcType="INTEGER" property="returnType" />
+    <result column="bidRequestType" jdbcType="TINYINT" property="bidRequestType" />
+    <result column="bidRequestState" jdbcType="TINYINT" property="bidRequestState" />
+    <result column="bidRequestAmount" jdbcType="DECIMAL" property="bidRequestAmount" />
+    <result column="currentRate" jdbcType="DECIMAL" property="currentRate" />
+    <result column="minBidAmount" jdbcType="DECIMAL" property="minBidAmount" />
+    <result column="monthes2Return" jdbcType="TINYINT" property="monthes2Return" />
+    <result column="bidCount" jdbcType="INTEGER" property="bidCount" />
+    <result column="totalRewardAmount" jdbcType="DECIMAL" property="totalRewardAmount" />
+    <result column="currentSum" jdbcType="DECIMAL" property="currentSum" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="disableDate" jdbcType="TIMESTAMP" property="disableDate" />
+    <result column="disableDays" jdbcType="TINYINT" property="disableDays" />
+
+    <result column="applyTime" jdbcType="TIMESTAMP" property="applyTime" />
+    <result column="publishTime" jdbcType="TIMESTAMP" property="publishTime" />
+    <association property="createUser" column="createUser_id" select="cn.wolfcode.p2p.base.mapper.LoginInfoMapper.selectByPrimaryKey"></association>
+    <collection property="bids" select="cn.wolfcode.p2p.bussniss.mapper.BidMapper.selectBybidRequestId" column="id"/>
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from bidrequest
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="cn.wolfcode.p2p.bussniss.domain.BidRequest" useGeneratedKeys="true">
+    insert into bidrequest (version, returnType, bidRequestType, 
+      bidRequestState, bidRequestAmount, currentRate, 
+      minBidAmount, monthes2Return, bidCount, 
+      totalRewardAmount, currentSum, title, 
+      description, note, disableDate, 
+      disableDays, createUser_id, applyTime, 
+      publishTime)
+    values (#{version,jdbcType=INTEGER}, #{returnType,jdbcType=INTEGER}, #{bidRequestType,jdbcType=TINYINT}, 
+      #{bidRequestState,jdbcType=TINYINT}, #{bidRequestAmount,jdbcType=DECIMAL}, #{currentRate,jdbcType=DECIMAL}, 
+      #{minBidAmount,jdbcType=DECIMAL}, #{monthes2Return,jdbcType=TINYINT}, #{bidCount,jdbcType=INTEGER}, 
+      #{totalRewardAmount,jdbcType=DECIMAL}, #{currentSum,jdbcType=DECIMAL}, #{title,jdbcType=VARCHAR}, 
+      #{description,jdbcType=VARCHAR}, #{note,jdbcType=VARCHAR}, #{disableDate,jdbcType=TIMESTAMP}, 
+      #{disableDays,jdbcType=TINYINT}, #{createUser.id,jdbcType=BIGINT}, #{applyTime,jdbcType=TIMESTAMP}, 
+      #{publishTime,jdbcType=TIMESTAMP})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="cn.wolfcode.p2p.bussniss.domain.BidRequest">
+    update bidrequest
+    set version = #{version,jdbcType=INTEGER},
+      returnType = #{returnType,jdbcType=INTEGER},
+      bidRequestType = #{bidRequestType,jdbcType=TINYINT},
+      bidRequestState = #{bidRequestState,jdbcType=TINYINT},
+      bidRequestAmount = #{bidRequestAmount,jdbcType=DECIMAL},
+      currentRate = #{currentRate,jdbcType=DECIMAL},
+      minBidAmount = #{minBidAmount,jdbcType=DECIMAL},
+      monthes2Return = #{monthes2Return,jdbcType=TINYINT},
+      bidCount = #{bidCount,jdbcType=INTEGER},
+      totalRewardAmount = #{totalRewardAmount,jdbcType=DECIMAL},
+      currentSum = #{currentSum,jdbcType=DECIMAL},
+      title = #{title,jdbcType=VARCHAR},
+      description = #{description,jdbcType=VARCHAR},
+      note = #{note,jdbcType=VARCHAR},
+      disableDate = #{disableDate,jdbcType=TIMESTAMP},
+      disableDays = #{disableDays,jdbcType=TINYINT},
+      createUser_id = #{createUser.id,jdbcType=BIGINT},
+      applyTime = #{applyTime,jdbcType=TIMESTAMP},
+      publishTime = #{publishTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, version, returnType, bidRequestType, bidRequestState, bidRequestAmount, 
+    currentRate, minBidAmount, monthes2Return, bidCount, totalRewardAmount, currentSum, 
+    title, description, note, disableDate, disableDays, createUser_id, applyTime, publishTime
+    from bidrequest
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, version, returnType, bidRequestType, bidRequestState, bidRequestAmount, 
+    currentRate, minBidAmount, monthes2Return, bidCount, totalRewardAmount, currentSum, 
+    title, description, note, disableDate, disableDays, createUser_id, applyTime, publishTime
+    from bidrequest
+  </select>
+  <select id="query" resultMap="BaseResultMap">
+    select id, version, returnType, bidRequestType, bidRequestState, bidRequestAmount,
+           currentRate, minBidAmount, monthes2Return, bidCount, totalRewardAmount, currentSum,
+           title, description, note, disableDate, disableDays, createUser_id, applyTime, publishTime
+    from bidrequest
+    <where>
+      <if test="state != null">
+        and bidRequestState = #{state}
+      </if>
+      <if test="states != null">
+        and bidRequestState in
+        <foreach collection="states" item="item" separator="," open="(" close=")">
+          #{item}
+        </foreach>
+      </if>
+      <if test="bidRequestState > -1">
+        and bidRequestState = #{bidRequestState}
+      </if>
+      <if test="type > -1">
+        and bidRequestType = #{type}
+      </if>
+    </where>
+  </select>
+  <select id="getListFromOneHourLater" resultMap="BaseResultMap">
+    select id, version, returnType, bidRequestType, bidRequestState, bidRequestAmount,
+           currentRate, minBidAmount, monthes2Return, bidCount, totalRewardAmount, currentSum,
+           title, description, note, disableDate, disableDays, createUser_id, applyTime, publishTime
+    from bidrequest
+    where publishTime &lt;= #{hour} and bidRequestState = 1
+  </select>
+</mapper>

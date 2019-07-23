@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.p2p.base.mapper.SystemDictionaryItemMapper">
+  <resultMap id="BaseResultMap" type="cn.wolfcode.p2p.base.domain.SystemDictionaryItem">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="parentId" jdbcType="BIGINT" property="parentId" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="sequence" jdbcType="TINYINT" property="sequence" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from systemdictionaryitem
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByParentId">
+    delete from systemdictionaryitem
+    where parentid = #{parentId}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="cn.wolfcode.p2p.base.domain.SystemDictionaryItem" useGeneratedKeys="true">
+    insert into systemdictionaryitem (parentId, title, sequence
+      )
+    values (#{parentId,jdbcType=BIGINT}, #{title,jdbcType=VARCHAR}, #{sequence,jdbcType=TINYINT}
+      )
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="cn.wolfcode.p2p.base.domain.SystemDictionaryItem">
+    update systemdictionaryitem
+    set parentId = #{parentId,jdbcType=BIGINT},
+      title = #{title,jdbcType=VARCHAR},
+      sequence = #{sequence,jdbcType=TINYINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, parentId, title, sequence
+    from systemdictionaryitem
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, parentId, title, sequence
+    from systemdictionaryitem
+  </select>
+    <select id="query" resultType="cn.wolfcode.p2p.base.domain.SystemDictionaryItem">
+      select id, parentId, title, sequence
+      from systemdictionaryitem
+      <where>
+        <if test="parentId != null">
+          and parentId = #{parentId}
+        </if>
+        <if test="keyword != null">
+          and title like concat('%',#{keyword},'%')
+        </if>
+      </where>
+    </select>
+  <select id="getBySn" resultType="cn.wolfcode.p2p.base.domain.SystemDictionaryItem">
+    select si.id, si.parentId, si.title, si.sequence
+    from systemdictionaryitem si
+    left join systemdictionary s on si.parentId = s.id
+    where s.sn = #{educationBackground}
+
+  </select>
+</mapper>

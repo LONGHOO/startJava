@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.p2p.bussniss.mapper.AccountFlowMapper">
+  <resultMap id="BaseResultMap" type="cn.wolfcode.p2p.bussniss.domain.AccountFlow">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="actionTime" jdbcType="TIMESTAMP" property="actionTime" />
+    <result column="amount" jdbcType="DECIMAL" property="amount" />
+    <result column="actionType" jdbcType="TINYINT" property="actionType" />
+    <result column="accountId" jdbcType="BIGINT" property="accountId" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="usableAmount" jdbcType="DECIMAL" property="usableAmount" />
+    <result column="freezedAmount" jdbcType="DECIMAL" property="freezedAmount" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from accountflow
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="cn.wolfcode.p2p.bussniss.domain.AccountFlow" useGeneratedKeys="true">
+    insert into accountflow (actionTime, amount, actionType, 
+      accountId, note, usableAmount, 
+      freezedAmount)
+    values (#{actionTime,jdbcType=TIMESTAMP}, #{amount,jdbcType=DECIMAL}, #{actionType,jdbcType=TINYINT}, 
+      #{accountId,jdbcType=BIGINT}, #{note,jdbcType=VARCHAR}, #{usableAmount,jdbcType=DECIMAL}, 
+      #{freezedAmount,jdbcType=DECIMAL})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="cn.wolfcode.p2p.bussniss.domain.AccountFlow">
+    update accountflow
+    set actionTime = #{actionTime,jdbcType=TIMESTAMP},
+      amount = #{amount,jdbcType=DECIMAL},
+      actionType = #{actionType,jdbcType=TINYINT},
+      accountId = #{accountId,jdbcType=BIGINT},
+      note = #{note,jdbcType=VARCHAR},
+      usableAmount = #{usableAmount,jdbcType=DECIMAL},
+      freezedAmount = #{freezedAmount,jdbcType=DECIMAL}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, actionTime, amount, actionType, accountId, note, usableAmount, freezedAmount
+    from accountflow
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, actionTime, amount, actionType, accountId, note, usableAmount, freezedAmount
+    from accountflow
+  </select>
+</mapper>

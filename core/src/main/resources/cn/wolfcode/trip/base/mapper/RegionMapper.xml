@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.trip.base.mapper.RegionMapper">
+  <resultMap id="BaseResultMap" type="cn.wolfcode.trip.base.domain.Region">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="p_id" jdbcType="BIGINT" property="parent.id" />
+    <result column="p_name" jdbcType="BIGINT" property="parent.name" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from region
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="cn.wolfcode.trip.base.domain.Region" useGeneratedKeys="true">
+    insert into region (name, parent_id, state
+      )
+    values (#{name,jdbcType=VARCHAR}, #{parent.id,jdbcType=BIGINT}, #{state,jdbcType=INTEGER}
+      )
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="cn.wolfcode.trip.base.domain.Region">
+    update region
+    set name = #{name,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="changeState">
+    update region
+    set state = #{state}
+    where id = #{id}
+  </update>
+  <select id="selectByParentId" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select r.id, r.name, re.id p_id,re.name p_name, r.state
+    from region r
+    left join region re on re.id = r.parent_id
+    where
+    <choose>
+      <when test="parentId != null">
+        r.parent_id = #{parentId}
+      </when>
+      <otherwise>
+        r.parent_id is null
+      </otherwise>
+    </choose>
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, name, parent_id, state
+    from region
+    <where>
+      <if test="state != null">
+        and state = #{state}
+      </if>
+    </where>
+  </select>
+</mapper>

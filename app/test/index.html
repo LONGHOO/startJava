@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <script src="/js/jquery/jquery.min.js"></script>
+    <script src="/js/bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/js/bootstrap-4.1.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="chatbox.css">
+    <link rel="stylesheet" href="/css/font/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/reset.css"/>
+</head>
+<body>
+<div class="search-head">
+    <div class="row nav-search">
+        <div class="col-2">
+            <a href="index.html">
+                <span><i class="fa fa-chevron-left fa-2x" style="color:grey;"></i></span>
+            </a>
+        </div>
+        <div class="col-8" style="height:48px;line-height:48px;text-align: center">
+            <div class="input-group-sm search">
+                message group
+            </div>
+        </div>
+        <div class="col-2" style="height:48px;line-height:48px;text-align: center">
+            <div class="input-group-sm" style="margin: 0 auto">
+                <span><i class="fa fa-ellipsis-h fa-3x" style="color:grey;"></i></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="content" style="border-top: 1px solid #80808052">
+    <!-- Left -->
+    <div class="chat-sender">
+        <div><img src="../img/user/head.jpg"></div>
+        <div>扣丁狼</div>
+        <div>
+            <div class="chat-left_triangle"></div>
+            <span> 测试发送的内容测试发送的内容测试发送的内容测试发送的内容</span>
+        </div>
+    </div>
+    <!-- Right -->
+    <div class="chat-receiver">
+        <div><img src="../img/user/head.jpg"></div>
+        <div>longhoo</div>
+        <div>
+            <div class="chat-right_triangle"></div>
+            <span>测试发送的内容测试发送的内容测试发送的内容测试发送的内容测试发送的内容测试发送的内容测试发送的内容测试发送的内容</span>
+        </div>
+    </div>
+    <!-- Right -->
+    <div class="chat-sender">
+        <div><img src="../img/user/head.jpg"></div>
+        <div>扣丁狼</div>
+        <div>
+            <div class="chat-left_triangle"></div>
+            <span> 测试发送的内容测试发送的内容测试发送的内容测试发送的内容</span>
+        </div>
+    </div>
+    <!-- Notice/Center -->
+    <div class="chat-notice">
+        <span>2017年12月10日 23:13</span>
+    </div>
+    <!-- Left -->
+    <div class="chat-sender">
+        <div><img src="../img/user/head.jpg"/></div>
+        <div>扣丁狼</div>
+        <div>
+            <div class="chat-left_triangle"></div>
+            <span>测试发送的内容测试发送的内容测试发送的内容测试发送的内容测试发送的内容测试发送的内容测试发送的内容测试发送的内容</span>
+        </div>
+    </div>
+    <!-- Left -->
+    <div class="chat-sender">
+        <div><img src="../img/user/head.jpg"></div>
+        <div>扣丁狼</div>
+        <div>
+            <div class="chat-left_triangle"></div>
+            <span> 测试发送的内容测试发送的内容测试发送的内容测试发送的内容测试发送的内容测试发送的内容测试发送的内容测试发送的内容</span>
+        </div>
+    </div>
+    <!-- Left -->
+    <div class="chat-sender">
+        <div><img src="../img/user/head.jpg"></div>
+        <div>扣丁狼</div>
+        <div>
+            <div class="chat-left_triangle"></div>
+            <span> 测试发送的内容测试发送的内容测试发送的内容测试发送的内容</span>
+        </div>
+    </div>
+    <!-- Left -->
+    <div class="chat-sender">
+        <div><img src="../img/user/head.jpg"></div>
+        <div>扣丁狼</div>
+        <div>
+            <div class="chat-left_triangle"></div>
+            <span> 测试发送的内容测试发送的内容测试发送的内容测试发送的内容</span>
+        </div>
+    </div>
+    <!-- Left -->
+    <div class="chat-sender">
+        <div><img src="../img/user/head.jpg"></div>
+        <div>扣丁狼</div>
+        <div>
+            <div class="chat-left_triangle"></div>
+            <span> 测试发送的内容测试发送的内容测试发送的内容测试发送的内容</span>
+        </div>
+    </div>
+    <!-- Right -->
+    <div class="chat-receiver">
+        <div><img src="../img/user/head.jpg"></div>
+        <div>longhoo</div>
+        <div>
+            <div class="chat-right_triangle"></div>
+            <span> 测试发送的内容测试发送的内容测试发送的内容</span>
+        </div>
+    </div>
+    <!-- Notice/Center -->
+    <div class="chat-notice">
+        <span>你被群主移除群聊</span>
+    </div>
+</div>
+<div id="inputArea">
+    <div class="row">
+        <div class="col-10" style="padding-left:30px;">
+            <textarea autoHeight="true" rows="1" id="inputContent"></textarea>
+        </div>
+        <div class="col-2" style="padding:0px;">
+            <button type="button" id="sendBtn" class="btn btn-sm btn-success">发送</button>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $(function () {
+        //设置聊天内容区域的高度
+        $("#content").height($(window).height() - 58-44);
+        // $.fn.autoHeight = function(){
+        //     function autoHeight(elem){
+        //         elem.style.height = 'auto';
+        //         elem.scrollTop = 0; //防抖动
+        //         elem.style.height = elem.scrollHeight + 'px';
+        //     }
+        //     this.each(function(){
+        //         if($("#inputContent").val().length > 18){
+        //             autoHeight(this);
+        //         }
+        //         $(this).on('keyup', function(){
+        //             autoHeight(this);
+        //         });
+        //     });
+        // }
+        // $('textarea[autoHeight]').autoHeight();
+        $("#inputContent").height($("#inputContent").scrollHeight);
+        $("#inputContent").on("input",function () {
+            this.style.height = 'auto';
+            $("#content").height($(window).height() - 58-this.style.height);
+            this.style.height = this.scrollHeight + "px";
+        })
+    })
+</script>
+</html>

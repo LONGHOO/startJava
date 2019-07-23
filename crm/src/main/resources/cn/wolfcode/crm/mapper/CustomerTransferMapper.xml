@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.crm.mapper.CustomerTransferMapper">
+  <resultMap id="BaseResultMap" type="cn.wolfcode.crm.domain.CustomerTransfer">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="operateTime" jdbcType="TIMESTAMP" property="operateTime" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <association property="customer" javaType="Customer" columnPrefix="c_">
+      <id column="id" property="id"/>
+      <result column="name" property="name"/>
+    </association>
+    <association property="operator" javaType="Employee" columnPrefix="op_">
+      <id column="id" property="id"/>
+      <result column="name" property="name"/>
+    </association>
+    <association property="oldSeller" javaType="Employee" columnPrefix="os_">
+    <id column="id" property="id"/>
+    <result column="name" property="name"/>
+  </association>
+    <association property="newSeller" javaType="Employee" columnPrefix="sn_">
+      <id column="id" property="id"/>
+      <result column="name" property="name"/>
+    </association>
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from customertransfer
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="cn.wolfcode.crm.domain.CustomerTransfer" useGeneratedKeys="true">
+    insert into customertransfer (customer_id, operator_id, operate_time,
+      oldSeller_id, newSeller_id, reason
+      )
+    values (#{customer.id,jdbcType=BIGINT}, #{operator.id,jdbcType=BIGINT}, #{operateTime,jdbcType=TIMESTAMP},
+      #{oldSeller.id,jdbcType=BIGINT}, #{newSeller.id,jdbcType=BIGINT}, #{reason,jdbcType=VARCHAR}
+      )
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="cn.wolfcode.crm.domain.CustomerTransfer">
+    update customertransfer
+    set customer_id = #{customer_id,jdbcType=BIGINT},
+      operator_id = #{operator_id,jdbcType=BIGINT},
+      operateTime = #{operateTime,jdbcType=TIMESTAMP},
+      oldSeller_id = #{oldSeller_id,jdbcType=BIGINT},
+      newSeller_id = #{newSeller_id,jdbcType=BIGINT},
+      reason = #{reason,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, customer_id, operator_id, operateTime, oldSeller_id, newSeller_id, reason
+    from customertransfer
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select
+            ct.id id,
+            ct.operate_time operateTime,
+            ct.reason reason,
+            c.id c_id,
+            c.name c_name,
+            op.id op_id,
+            op.name op_name,
+            os.id os_id,
+            os.name os_name,
+            sn.id sn_id,
+            sn.name sn_name
+    from customertransfer ct
+    left join customer c on c.id = customer_id
+    left join employee op on op.id = operator_id
+    left join employee os on os.id = oldSeller_id
+    left join employee sn on sn.id = newSeller_id
+
+  </select>
+  <select id="queryList" resultMap="BaseResultMap">
+    select
+            ct.id id,
+            ct.operate_time operateTime,
+            ct.reason reason,
+            c.id c_id,
+            c.name c_name,
+            op.id op_id,
+            op.name op_name,
+            os.id os_id,
+            os.name os_name,
+            sn.id sn_id,
+            sn.name sn_name
+    from customertransfer ct
+    left join customer c on c.id = customer_id
+    left join employee op on op.id = operator_id
+    left join employee os on os.id = oldSeller_id
+    left join employee sn on sn.id = newSeller_id
+    <where>
+      <if test="keyword != null and keyword != ''">
+        and (c.name like concat('%',#{keyword},'%') or c.tel like concat('%',#{keyword},'%'))
+      </if>
+    </where>
+  </select>
+</mapper>

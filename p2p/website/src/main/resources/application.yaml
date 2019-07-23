@@ -1,0 +1,7 @@
+server:
+  port: 8888
+file:
+  uploadPath: /Users/minger/upload
+spring:
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,file:${file.uploadPath}

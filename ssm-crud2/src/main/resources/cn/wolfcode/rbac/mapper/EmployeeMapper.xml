@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.rbac.mapper.EmployeeMapper">
+    <resultMap id="BaseResultMap" type="cn.wolfcode.rbac.domain.Employee">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="password" property="password"/>
+        <result column="admin" property="admin"/>
+        <result column="email" property="email"/>
+        <result column="age" property="age"/>
+        <association javaType="cn.wolfcode.rbac.domain.Department" property="dept" columnPrefix="d_">
+            <result column="id" property="id"/>
+            <result column="name" property="name"/>
+        </association>
+    </resultMap>
+    <delete id="deleteByPrimaryKey">
+    delete from employee
+    where id = #{id}
+  </delete>
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+    insert into employee (name, password, email, age, deptId)
+    values (#{name}, #{password}, #{email}, #{age}, #{deptId})
+  </insert>
+    <update id="updateByPrimaryKey">
+        update employee
+        <set>
+            <if test="username != null and username !=''">
+                name = #{name}
+            </if>
+            <if test="password != null and password !=''">
+                password = #{password}
+            </if>
+            <if test="email != null and email !=''">
+                email = #{email}
+            </if>
+            <if test="age != null and age !=''">
+                age = #{age}
+            </if>
+            <if test="deptId != null and deptId !=''">
+                deptId = #{deptId}
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap">
+    select id, name, password, email, age, deptId
+    from employee
+    where id = #{id}
+  </select>
+    <select id="queryForCount" resultType="Integer">
+        select count(*) from employee
+        <where>
+            <if test="keyword != null and keyword !=''">
+                name like concat('%',#{keyword},'%')
+            </if>
+        </where>
+    </select>
+    <select id="queryForList" resultMap="BaseResultMap">
+        select e.id,e.name,e.email,e.age,e.admin,d.id d_id,d.name d_name
+        from employee e
+        join department d on e.id = d.id
+        <where>
+            <if test="keyword != null and keyword !=''">
+                e.name like concat('%',#{keyword},'%')
+            </if>
+        </where>
+        limit #{start},#{pageSize}
+    </select>
+</mapper>

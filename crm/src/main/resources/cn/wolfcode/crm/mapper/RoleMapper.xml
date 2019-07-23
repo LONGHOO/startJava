@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.crm.mapper.RoleMapper">
+  <resultMap id="BaseResultMap" type="cn.wolfcode.crm.domain.Role">
+    <id column="id" property="id" />
+    <result column="name" property="name" />
+    <result column="sn" property="sn" />
+    <!--
+      ofType:指定集合中元素的类型
+      javaType:指定当前属性的类型
+    -->
+    <collection property="permissions" ofType="Permission"
+                select="cn.wolfcode.crm.mapper.PermissionMapper.selectByRoleId" column="id"/>
+  </resultMap>
+  <delete id="deleteByPrimaryKey">
+    delete from role
+    where id = #{id}
+  </delete>
+  <delete id="deleteRolePermissionRelation">
+    delete from role_permission where role_id = #{roleId}
+  </delete>
+  <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+    insert into role (name, sn)
+    values (#{name}, #{sn})
+  </insert>
+  <insert id="insertRolePermissionRelation">
+    insert into role_permission values(#{roleId},#{permissionId})
+  </insert>
+  <update id="updateByPrimaryKey">
+    update role
+    set name = #{name},
+      sn = #{sn}
+    where id = #{id}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap">
+    select id, name, sn
+    from role
+    where id = #{id}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, name, sn
+    from role
+  </select>
+
+  <select id="selectForCount" resultType="java.lang.Integer">
+      select count(0) from role
+  </select>
+  <select id="selectForList" resultMap="BaseResultMap">
+    select id, name, sn
+    from role
+  </select>
+  <select id="selectByEmployeeId" resultType="Role">
+    select r.id, r.name
+    from role r
+    join employee_role er on r.id = er.role_id
+    where er.employee_id = #{employeeId}
+  </select>
+</mapper>

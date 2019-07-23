@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="db.properties"/>
+    <context:component-scan base-package="com.shiyi.ioc"/>
+
+    <bean id="person" class="com.shiyi.ioc.Person" p:name="乔峰"/>
+    <bean id="cat1" class="com.shiyi.ioc.Cat1"/>
+    <bean id="catStaticFactory" class="com.shiyi.ioc.CatStaticFactory" factory-method="getInstance"/>
+    <bean id="catInstanceFactory" class="com.shiyi.ioc.CatInstanceFactory"/>
+    <bean factory-bean="catInstanceFactory" factory-method="getInstance"/>
+    <bean id="cat4FactoryBean" class="com.shiyi.ioc.Cat4FactoryBean"/>
+    <!--<bean id="dog" class="com.shiyi.ioc.Dog" scope="prototype" p:name="旺财"/>-->
+    <bean id="dog2" class="com.shiyi.ioc.Dog" p:name="旺财"/>
+    <bean id="myDataSource" class="com.shiyi.ioc.MyDataSource" init-method="init" destroy-method="destory"/>
+    <bean id="employee" class="com.shiyi.di.Employee" p:age="23" p:name="赵敏" p:salary="3422"/>
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        <property name="url" value="${jdbc.url}"/>
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <bean id="employeeDao" class="com.shiyi.di.EmployeeDAO" p:dataSource-ref="dataSource"/>
+    <bean id="employeeService" class="com.shiyi.di.EmployeeService" p:dao-ref="employeeDao"/>
+
+</beans>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.p2p.base.mapper.RealAuthMapper">
+  <resultMap id="BaseResultMap" type="cn.wolfcode.p2p.base.domain.RealAuth">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="realname" jdbcType="VARCHAR" property="realName" />
+    <result column="sex" jdbcType="TINYINT" property="sex" />
+    <result column="idNumber" jdbcType="VARCHAR" property="idNumber" />
+    <result column="bornDate" jdbcType="VARCHAR" property="bornDate" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="image1" jdbcType="VARCHAR" property="image1" />
+    <result column="image2" jdbcType="VARCHAR" property="image2" />
+    <result column="state" jdbcType="TINYINT" property="state" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="auditTime" jdbcType="TIMESTAMP" property="auditTime" />
+    <result column="applyTime" jdbcType="TIMESTAMP" property="applyTime" />
+    <association property="applier" javaType="cn.wolfcode.p2p.base.domain.LoginInfo" columnPrefix="info_">
+      <id column="Id" jdbcType="BIGINT" property="id" />
+      <result column="username" property="username"/>
+    </association>
+    <association property="auditor" javaType="cn.wolfcode.p2p.base.domain.LoginInfo" columnPrefix="info1_">
+      <id column="id" jdbcType="BIGINT" property="id" />
+      <result column="username" property="username"/>
+    </association>
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from realauth
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="cn.wolfcode.p2p.base.domain.RealAuth" useGeneratedKeys="true">
+    insert into realauth (realname, sex, idNumber, 
+      bornDate, address, image1, 
+      image2, state, remark, 
+      auditTime, applyTime, auditor_id, 
+      applier_id)
+    values (#{realName,jdbcType=VARCHAR}, #{sex,jdbcType=TINYINT}, #{idNumber,jdbcType=VARCHAR}, 
+      #{bornDate,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR}, #{image1,jdbcType=VARCHAR}, 
+      #{image2,jdbcType=VARCHAR}, #{state,jdbcType=TINYINT}, #{remark,jdbcType=VARCHAR}, 
+      #{auditTime,jdbcType=TIMESTAMP}, #{applyTime,jdbcType=TIMESTAMP}, #{auditor.id,jdbcType=BIGINT}, 
+      #{applier.id,jdbcType=BIGINT})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="cn.wolfcode.p2p.base.domain.RealAuth">
+    update realauth
+    set realname = #{realName,jdbcType=VARCHAR},
+      sex = #{sex,jdbcType=TINYINT},
+      idNumber = #{idNumber,jdbcType=VARCHAR},
+      bornDate = #{bornDate,jdbcType=VARCHAR},
+      address = #{address,jdbcType=VARCHAR},
+      image1 = #{image1,jdbcType=VARCHAR},
+      image2 = #{image2,jdbcType=VARCHAR},
+      state = #{state,jdbcType=TINYINT},
+      remark = #{remark,jdbcType=VARCHAR},
+      auditTime = #{auditTime,jdbcType=TIMESTAMP},
+      applyTime = #{applyTime,jdbcType=TIMESTAMP},
+      auditor_id = #{auditor.id,jdbcType=BIGINT},
+      applier_id = #{applier.id,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select r.id, r.realname, r.sex, r.idNumber, r.bornDate, r.address, r.image1, r.image2, r.state, r.remark,
+           r.auditTime, r.applyTime, r.auditor_id, r.applier_id,
+           info.id info_id,info.username info_username,
+           info1.id info1_id,info1.username info1_username
+    from realauth r
+           left join logininfo info on info.id = r.applier_id
+           left join logininfo info1 on info1.id = r.auditor_id
+    where r.id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, realname, sex, idNumber, bornDate, address, image1, image2, state, remark, 
+    auditTime, applyTime, auditor_id, applier_id
+    from realauth
+  </select>
+    <select id="query" resultMap="BaseResultMap">
+      select r.id, r.realname, r.sex, r.idNumber, r.bornDate, r.address, r.image1, r.image2, r.state, r.remark,
+             r.auditTime, r.applyTime, r.auditor_id, r.applier_id,
+              info.id info_id,info.username info_username,
+              info1.id info1_id,info1.username info1_username
+      from realauth r
+      left join logininfo info on info.id = r.applier_id
+      left join logininfo info1 on info1.id = r.auditor_id
+      <where>
+        <if test="state > -1">
+          and r.state = #{state}
+        </if>
+        <if test="beginDate != null">
+          and r.applyTime >= #{beginDate}
+        </if>
+        <if test="endDate != null">
+          and r.applyTime &lt;= #{endDate}
+        </if>
+      </where>
+    </select>
+</mapper>

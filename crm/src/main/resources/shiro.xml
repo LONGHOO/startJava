@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 配置默认的SecurityManager -->
+    <bean id="securityManager"
+          class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <!-- 指定使用自定义的Realm查询数据 -->
+        <property name="realm" ref="crmRealm"/>
+        <!-- 关联encache -->
+        <property name="cacheManager" ref="ehCacheManager"/>
+    </bean>
+    <bean id="shiroFilter"
+          class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <!--引用指定的安全管理器-->
+        <property name="securityManager" ref="securityManager"/>
+        <!-- 登陆的请求地址 -->
+        <property name="loginUrl" value="/login.html"/>
+        <property name="filterChainDefinitionMap" ref="filterChainDefinitions"/>
+        <property name="filters">
+            <map>
+                <!--设置authc过滤方式使用的认证过滤器-->
+                <entry key="authc" value-ref="crmFormAuthenticationFilter"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
+        <!--指定加密算法-->
+        <property name="hashAlgorithmName" value="MD5"/>
+        <!-- 加密次数 -->
+        <property name="hashIterations" value="10"/>
+    </bean>
+
+    <!-- 配置Controller的增强，若controller中有@RequiresPermission标签，那么为它创建代理类 -->
+    <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager"/>
+    </bean>
+
+    <!-- 配置ehcache -->
+    <bean id="ehCacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+        <property name="cacheManagerConfigFile" value="classpath:shiro-ehcache.xml"/>
+    </bean>
+
+    <bean id="filterChainDefinitions" factory-bean="filterChainDefinitionsBuilder"
+          factory-method="filterChainDefinitions"/>
+    <bean id="filterChainDefinitionsBuilder" class="cn.wolfcode.crm.factory.FilterChainDefinitionsBuilder"/>
+
+</beans>

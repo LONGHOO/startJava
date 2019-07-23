@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作业-14-需求： 控制输入年龄的文本框，使其只能输入数字和删除输入的数字 。</title>
+</head>
+<body>
+<input type="text" id="number"/>
+<input type="number"/>
+</body>
+<script>
+    var number = document.getElementById("number");
+    number.onkeydown=function(e) {
+        console.log((e.keyCode<48 || e.keyCode>57))
+        console.log(e.keyCode !== 8)
+    	if ((e.keyCode<48 || e.keyCode>57)&&e.keyCode !== 8) {
+    		e.preventDefault();
+    	}
+
+    }
+</script>
+</html>
